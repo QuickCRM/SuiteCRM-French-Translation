@@ -50,11 +50,11 @@ $mod_strings = array(
     'ERR_INT_ONLY_EMAIL_PER_RUN' => 'Seulement des valeurs numériques entières sont autorisées pour les E-mails par lot',
 
     'LBL_ATTACHMENT_AUDIT' => ' a été envoyé. Il n&#39;a pas été dupliqué localement pour conserver l&#39;utilisation du disque.',
-    'LBL_CONFIGURE_SETTINGS' => 'Configurer les paramètres d\'E-mail',
+    'LBL_CONFIGURE_SETTINGS' => 'Configurer les paramètres d&#39;E-mail',
     'LBL_CUSTOM_LOCATION' => 'Defini par l&#39;Utilisateur',
     'LBL_DEFAULT_LOCATION' => 'Défaut',
 
-    'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Lors de la suppression d\'un E-mail, supprimer les pièces jointes et Notes qui lui sont rattachées.',
+    'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Lors de la suppression d&#39;un E-mail, supprimer les pièces jointes et Notes qui lui sont rattachées.',
     'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Notifications par courrier électronique', // PR 7610
     'LBL_EMAIL_ENABLE_CONFIRM_OPT_IN' => 'Réglages Opt-In',
     'LBL_EMAIL_ENABLE_SEND_OPT_IN' => 'Envoyer automatiquement l\'E-mail de consentement',
