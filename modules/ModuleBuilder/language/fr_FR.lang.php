@@ -582,7 +582,7 @@ $mod_strings = array(
     'LBL_AJAX_DEPLOYPROGRESS' => 'Déploiement en cours...',
 
     'LBL_AJAX_RESPONSE_TITLE' => 'Résultat',
-    'LBL_AJAX_RESPONSE_MESSAGE' => 'Cette opération c\'est terminée avec succès',
+    'LBL_AJAX_RESPONSE_MESSAGE' => 'Cette opération s\'est terminée avec succès',
     'LBL_AJAX_LOADING_TITLE' => 'En traitement...',
     'LBL_AJAX_LOADING_MESSAGE' => 'Veuillez patienter pendant le chargement...',
 
@@ -600,7 +600,7 @@ $mod_strings = array(
     'LBL_JS_VALIDATE_REL_LABEL' => 'Libellé - veuillez ajouter un libellé qui sera affiché au dessus du sous-panel',
 
 //CONFIRM
-    'LBL_CONFIRM_FIELD_DELETE' => 'La suppression de ce champ personnalisé va supprimer à la fois le champ personnalisé et toutes les données relatives au champ personnalisé dans la base de données. Le champ n\'apparaîtra plus dans aucune mise en page. \n\nVoulez-vous continuer?',
+    'LBL_CONFIRM_FIELD_DELETE' => 'La suppression de ce champ personnalisé va supprimer à la fois le champ personnalisé et toutes les données relatives au champ personnalisé dans la base de données. Le champ n&#39;apparaîtra plus dans aucune mise en page. \n\nVoulez-vous continuer?',
 
     'LBL_CONFIRM_RELATIONSHIP_DELETE' => 'Etes-vous sûr(e) de vouloir supprimer cette relation ?',
     'LBL_CONFIRM_DONT_SAVE' => 'Attention vous avez fait des modifications depuis votre dernière sauvegarde, voulez-vous sauvegarder ces modifications ?',
