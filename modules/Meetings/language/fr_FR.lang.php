@@ -155,7 +155,7 @@ $mod_strings = array(
     'LBL_RELATED_TO' => 'Relatif à :',
 
     // for reminders
-    'LBL_REMINDERS' => 'Rappel par défaut',
+    'LBL_REMINDERS' => 'Rappels',
     'LBL_REMINDERS_ACTIONS' => 'Actions',
     'LBL_REMINDERS_POPUP' => 'Rappel utilisateurs',
     'LBL_REMINDERS_EMAIL' => 'E-mail invités',

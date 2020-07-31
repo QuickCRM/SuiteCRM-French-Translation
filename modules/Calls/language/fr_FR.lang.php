@@ -138,7 +138,7 @@ $mod_strings = array(
     'LBL_SYNCED_RECURRING_MSG' => 'Cet appel provient d\'un autre système et a été synchronisé à SuiteCRM . Pour apporter des modifications, allez à l\'appel d\'origine dans l\'autre système. Les modifications apportées dans l\'autre système peuvent être synchronisés à cet enregistrement.',
 
     // for reminders
-    'LBL_REMINDERS' => 'Rappel par défaut',
+    'LBL_REMINDERS' => 'Rappels',
     'LBL_REMINDERS_ACTIONS' => 'Actions',
     'LBL_REMINDERS_POPUP' => 'Rappel utilisateurs',
     'LBL_REMINDERS_EMAIL' => 'E-mail invités',
