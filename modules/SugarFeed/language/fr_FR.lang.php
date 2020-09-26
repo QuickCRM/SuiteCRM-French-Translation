@@ -105,7 +105,7 @@ $mod_strings = array(
     'FOR_AMOUNT' => 'pour le montant de', // Activity stream for opportunity
     'CLOSED_CASE' => 'a <b>CLÔTURÉ</b> un {0} ',
     'CONVERTED_LEAD' => 'a <b>CONVERTI</b> {0}',
-    'WON_OPPORTUNITY' => 'a <b>GAGNÉ</b> un {0}',
+    'WON_OPPORTUNITY' => 'a <b>gagné</b> une {0}',
     'WITH' => 'lié à',
 
     'LBL_LINK_TYPE_Link' => 'Lien',
