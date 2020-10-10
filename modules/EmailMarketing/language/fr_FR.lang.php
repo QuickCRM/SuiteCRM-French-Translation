@@ -65,7 +65,7 @@ $mod_strings = array(
     'LBL_MESSAGE_FOR' => 'Destinataires :',
 
     'LBL_FROM_NAME' => 'Nom de l&#39;expéditeur : ',
-    'LBL_FROM_ADDR' => 'E-mail de l\'expéditeur : ',
+    'LBL_FROM_ADDR' => 'E-mail de l&#39;expéditeur : ',
     'LBL_DATE_START' => 'Date de début',
     'LBL_TIME_START' => 'Heure début',
     'LBL_START_DATE_TIME' => 'Début de l&#39;envoi : ',
