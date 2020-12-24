@@ -1055,7 +1055,7 @@ $app_list_strings = array(
         '_self' => 'Fenêtre courante',
     ),
     'dashlet_auto_refresh_options' => array(
-        '-1' => '-1',
+        '-1' => '- jamais -',
         '30' => 'Toutes les 30 secondes',
         '60' => 'Toutes les minutes',
         '180' => 'Toutes les 3 minutes',

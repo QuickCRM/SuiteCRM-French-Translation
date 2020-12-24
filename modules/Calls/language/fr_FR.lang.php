@@ -162,4 +162,5 @@ $mod_strings = array(
     'LBL_LIST_STATUS'=>'Statut',
     'LBL_LIST_DATE_MODIFIED'=>'Date de modification',
     'LBL_LIST_DUE_DATE'=>'Date d\'échéance',
+    'LBL_RESCHEDULED_BY'=>'par',
 );
