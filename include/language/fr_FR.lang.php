@@ -900,7 +900,7 @@ $app_list_strings = array(
         'accept' => 'Accepté',
         'decline' => 'Refusé',
         'tentative' => 'Incertain',
-        'none' => 'Sans Pièce Jointe',
+        'none' => 'Non défini',
     ),
     'duration_intervals' => array(
         '0' => '00',
