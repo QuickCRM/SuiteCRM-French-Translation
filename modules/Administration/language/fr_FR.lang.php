@@ -910,7 +910,7 @@ Dernière tentative de connexion: ',
     'LBL_BUSINESS_HOURS_DESC' => "Gérer les heures d’ouverture",
     'LBL_BUSINESS_HOURS_FROM' => 'De',
     'LBL_BUSINESS_HOURS_TO' => 'A',
-    'LBL_BUSINESS_HOURS_OPEN' => "Ouvrir",
+    'LBL_BUSINESS_HOURS_OPEN' => "Ouvert",
     'MSG_CACHE_CLEANED' => 'Le cache a été vidé.', // PR 3007
     'MSG_NOT_CACHE_CLEANED' => 'Le cache ne peut pas être nettoyé', // PR 3007
     'LBL_LIST_SYMBOL' => "Symbole de la liste",

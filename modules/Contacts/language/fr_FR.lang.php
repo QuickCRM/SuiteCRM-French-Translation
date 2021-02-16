@@ -175,7 +175,7 @@ $mod_strings = array(
     'NTC_REMOVE_CONFIRMATION' => 'Etes vous sûr de vouloir supprimer ce contact pour ce ticket?',
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunités',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Affaires',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Copie de l&#39;adresse principale',
     'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Copie de l&#39;adresse secondaire',
@@ -189,7 +189,7 @@ $mod_strings = array(
     'LBL_LIST_CITY' => 'Ville',
     'LBL_LIST_STATE' => 'État ou région :', //For address fields
     'LBL_HOMEPAGE_TITLE' => 'Mes Contacts',
-    'LBL_OPPORTUNITIES' => 'Opportunités',
+    'LBL_OPPORTUNITIES' => 'Affaires',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projets',

@@ -136,8 +136,8 @@ $mod_strings = array(
 
     // create invitee functionallity
     'LBL_CREATE_INVITEE' => 'Créer un invité',
-    'LBL_CREATE_CONTACT' => 'Comme un Contact',  // Create invitee functionallity
-    'LBL_CREATE_LEAD' => 'Comme un lead', // Create invitee functionallity
+    'LBL_CREATE_CONTACT' => 'Contact',  // Create invitee functionallity
+    'LBL_CREATE_LEAD' => 'Lead', // Create invitee functionallity
     'LBL_CREATE_AND_ADD' => 'Créer et Ajouter', // Create invitee functionallity
     'LBL_CANCEL_CREATE_INVITEE' => 'Annuler',
     'LBL_EMPTY_SEARCH_RESULT' => 'Désolé, aucun résultat trouvé. Veuillez créer un invité ci-dessous.',
