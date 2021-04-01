@@ -157,6 +157,7 @@ $mod_strings = array(
     'LBL_VIEW_DETAIL' => 'Retour à la Campagne',
     'LBL_OVERRIDE_BUSINESS_HOURS' => 'Tenir compte des jours ouvrables',
 
+    'LBL_IMPORT_PROJECTS' => 'Importer Projets',
     'LBL_PROJECTS_SEARCH' => 'Rechercher les projets',
     'LBL_USERS_SEARCH' => 'Rechercher les utilisateurs',
     'LBL_CONTACTS_SEARCH' => 'Sélectionner les contacts',

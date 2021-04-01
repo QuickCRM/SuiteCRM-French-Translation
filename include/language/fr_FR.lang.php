@@ -3184,7 +3184,7 @@ $app_strings['LBL_SELECT_TEMPLATE'] = 'Veuillez sélectionner un Template';
 $app_strings['LBL_NO_TEMPLATE'] = 'ERREUR\nAucun template trouvé\nVeuillez aller à la section PDF Templates et créez en un';
 
 //aow PR 5775
-$app_list_strings['moduleList']['AOW_WorkFlow'] = 'Flux d\'activité';
+$app_list_strings['moduleList']['AOW_WorkFlow'] = 'WorkFlows';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Critères du WorkFlow';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Analyse du processus';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Actions du WorkFlow';
