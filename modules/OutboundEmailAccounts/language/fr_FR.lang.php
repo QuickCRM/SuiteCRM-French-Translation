@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type',
     'LBL_MAIL_SENDTYPE' => 'Type d’envoi d\'e-mail',
     'LBL_MAIL_SMTPSSL' => 'Messagerie SMTP/SSL',
-    'LBL_SMTP_FROM_NAME' => 'Nom de l\'expéditeur des e-mails',
-    'LBL_SMTP_FROM_ADDR' => 'E-mail de l\'expéditeur',
+    'LBL_SMTP_FROM_NAME' => 'Nom de l&#39;expéditeur des e-mails',
+    'LBL_SMTP_FROM_ADDR' => 'E-mail de l&#39;expéditeur',
 );

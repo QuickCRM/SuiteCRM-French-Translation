@@ -94,7 +94,7 @@ $app_list_strings = array(
         'Queues' => 'Files d\'attente',
         'EmailMarketing' => 'E-mail marketing',
         'EmailTemplates' => 'Modèles de messages',
-        'ProspectLists' => 'Cibles - Listes',
+        'ProspectLists' => 'Listes de cibles',
         'SavedSearch' => 'Recherches sauvegardées',
         'UpgradeWizard' => 'Assistant de mise à jour',
         'Trackers' => 'Suivis',
@@ -695,6 +695,8 @@ $app_list_strings = array(
         'Radio' => 'Bouton Radio',
         'Television' => 'Télévision',
         'NewsLetter' => 'Newsletter',
+        'Survey' => 'Sondage',
+        
     ),
 
     'newsletter_frequency_dom' => array(
@@ -3690,7 +3692,7 @@ $app_list_strings['surveys_question_type']['Scale'] = 'Échelle';
 $app_list_strings['surveys_question_type']['Rating'] = 'Evaluation';
 $app_list_strings['surveys_matrix_options'][0] = 'Satisfait';
 $app_list_strings['surveys_matrix_options'][1] = 'Ni satisfait ni insatisfait';
-$app_list_strings['surveys_matrix_options'][2] = 'Insatisfait (e)';
+$app_list_strings['surveys_matrix_options'][2] = 'Insatisfait';
 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Attente de la confirmation opt-in, Confirmation opt-in non envoyée';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Erreur envoi du mail de confirmation de consentement';

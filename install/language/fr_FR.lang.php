@@ -432,7 +432,7 @@ $contact_user_link_guid',
     // SMTP settings
 
     'LBL_FROM_NAME' => 'De la part de :',
-    'LBL_FROM_ADDR' => 'E-mail de l\'expéditeur :',
+    'LBL_FROM_ADDR' => 'E-mail de l&#39;expéditeur :',
 
     'LBL_WIZARD_SMTP_DESC' => 'Fournissez le compte de messagerie qui sera utilisé pour envoyer des E-mails, tels que les notifications d\'assignations et les mots de passe des nouveaux utilisateurs. Les utilisateurs recevront les E-mails de SuiteCRM envoyés à partir du compte E-mail spécifié.',
     'LBL_CHOOSE_EMAIL_PROVIDER' => 'Choisissez votre fournisseur de messagerie :',

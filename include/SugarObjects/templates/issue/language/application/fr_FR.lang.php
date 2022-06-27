@@ -56,7 +56,7 @@ $app_list_strings = array(
         'Closed' => 'Fermé',
         'Pending Input' => 'En attente',
         'Rejected' => 'Rejeté',
-        'Duplicate' => 'Dupliquer',
+        'Duplicate' => 'Doublon',
     ),
     $object_name . '_priority_dom' => array(
         'P1' => 'Haute',
@@ -66,7 +66,7 @@ $app_list_strings = array(
     $object_name . '_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Accepté',
-        'Duplicate' => 'Dupliquer',
+        'Duplicate' => 'Doublon',
         'Closed' => 'Fermé',
         'Out of Date' => 'Périmé',
         'Invalid' => 'Invalide',

@@ -14,8 +14,8 @@ $manifest = array(
 	'acceptable_sugar_flavors' =>
 		  array('CE'),
 	'author' => 'Communauté SuiteCRM + NS-Team',
-	'version' => '7.11.8.23',
-	'published_date' => '2021-04-01',
+	'version' => '7.11.8.25',
+	'published_date' => '2021-09-28',
       );
 $installdefs = array(
 	'id'=> 'fr_FR',
