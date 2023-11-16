@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_DESCRIPTION_INFORMATION' => 'Description',
     'LBL_DESCRIPTION' => 'Description :',
     'LBL_DUPLICATE' => 'Doublon possible avec le(s) Compte(s)',
-    'LBL_EMAIL' => 'Adresse électronique :',
+    'LBL_EMAIL' => 'E-mail :',
     'LBL_EMAIL_OPT_OUT' => 'E-mail Opt Out :',
     'LBL_EMAIL_ADDRESSES' => 'Adresses électroniques',
     'LBL_EMPLOYEES' => 'Employés :',
@@ -160,5 +160,6 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Contrats',
     'LBL_AOS_INVOICES' => 'Factures',
+    'AOS_QUOTES' => 'Devis',
     'LBL_AOS_QUOTES' => 'Devis',
 );

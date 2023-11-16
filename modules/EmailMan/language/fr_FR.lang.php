@@ -109,7 +109,7 @@ $mod_strings = array(
     'TXT_REMOVE_ME_ALT' => 'Pour vous retirer de cette liste d\'E-mail',
     'TXT_REMOVE_ME_CLICK' => 'cliquez ici',
     'TXT_REMOVE_ME' => 'Si vous ne souhaitez plus recevoir d\'E-mail de notre part',
-    'LBL_NOTIFY_SEND_FROM_ASSIGNING_USER' => 'Envoyer une notification sur l’adresse e-mail de l’utilisateur assigné',
+    'LBL_NOTIFY_SEND_FROM_ASSIGNING_USER' => 'Envoyer une notification depuis l’adresse e-mail de l’utilisateur qui assigne',
 
     'LBL_SECURITY_TITLE' => 'Paramètres de sécurité',
     'LBL_SECURITY_DESC' => 'Les tags sélectionnés dans la liste ci-dessous ne seront PAS acceptés ni affichés dans les E-mails entrants ou dans le module "E-mails".',
