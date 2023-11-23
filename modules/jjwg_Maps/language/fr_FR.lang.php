@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'Lister les cartes';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Tester le géocodage';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Carte rapide';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Sans Pièce Jointe';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Aucun';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Adresse';
 $mod_strings['LBL_MAP_PROCESS'] = 'Traiter !';
 

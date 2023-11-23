@@ -910,7 +910,7 @@ $app_list_strings = array(
         'accept' => 'Accepté',
         'decline' => 'Refusé',
         'tentative' => 'Incertain',
-        'none' => 'Sans Pièce Jointe',
+        'none' => 'Aucun',
     ),
     'duration_intervals' => array(
         '0' => '00',
@@ -3840,7 +3840,7 @@ $app_strings['LBL_WAS_OPEN'] = 'Ce dossier était ouvert pour';
 $app_strings['LBL_HAS_BEEN_OPEN'] = 'Ce dossier était ouvert pour';
 $app_strings['LBL_NUMBER_OF_CASES_PER_ACCOUNT'] = 'Nombre de dossiers par compte';
 $app_strings['LBL_TOTAL_CASES_FOR_THIS_ACCOUNT'] = 'Total des dossiers pour ce compte : ';
-$app_strings['LBL_NONE_OUTSTANDING'] = 'Sans Pièce Jointe';
+$app_strings['LBL_NONE_OUTSTANDING'] = 'Aucun';
 $app_strings['LBL_VALIDATION_ERROR_REQUIRED'] = 'Champ obligatoire manquant : {{fields.field.label}}';
 $app_strings['LBL_VALIDATION_ERROR_CURRENCY_FORMAT'] = "Format de devise invalide. Requis: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_INT_FORMAT'] = "Format d'entier non valide. Requis: '{{context.expected}}'";
