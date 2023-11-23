@@ -513,7 +513,7 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Valeur de la clé invalide : [&#39;]",
     'ERROR_NO_HISTORY' => 'Aucun fichier contenant un historique a été trouvé',
     'ERROR_MINIMUM_FIELDS' => 'Cette mise en page doit contenir au moins un champ',
-    'ERROR_GENERIC_TITLE' => 'Une erreur s&#39;est produite',
+    'ERROR_GENERIC_TITLE' => 'Une erreur est survenue',
     'ERROR_REQUIRED_FIELDS' => 'Etes-vous sûr de vouloir continuer? Les champs obligatoires suivants sont absents de la mise en page :  ',
 
 
@@ -582,7 +582,7 @@ $mod_strings = array(
     'LBL_AJAX_DEPLOYPROGRESS' => 'Déploiement en cours...',
 
     'LBL_AJAX_RESPONSE_TITLE' => 'Résultat',
-    'LBL_AJAX_RESPONSE_MESSAGE' => 'Cette opération s\'est terminée avec succès',
+    'LBL_AJAX_RESPONSE_MESSAGE' => 'Cette opération c\'est terminée avec succès',
     'LBL_AJAX_LOADING_TITLE' => 'En traitement...',
     'LBL_AJAX_LOADING_MESSAGE' => 'Veuillez patienter pendant le chargement...',
 
@@ -600,7 +600,7 @@ $mod_strings = array(
     'LBL_JS_VALIDATE_REL_LABEL' => 'Libellé - veuillez ajouter un libellé qui sera affiché au dessus du sous-panel',
 
 //CONFIRM
-    'LBL_CONFIRM_FIELD_DELETE' => 'La suppression de ce champ personnalisé va supprimer à la fois le champ personnalisé et toutes les données relatives au champ personnalisé dans la base de données. Le champ n&#39;apparaîtra plus dans aucune mise en page. \n\nVoulez-vous continuer?',
+    'LBL_CONFIRM_FIELD_DELETE' => 'La suppression de ce champ personnalisé va supprimer à la fois le champ personnalisé et toutes les données relatives au champ personnalisé dans la base de données. Le champ n\\\'apparaîtra plus dans aucune mise en page. \n\nVoulez-vous continuer?',
 
     'LBL_CONFIRM_RELATIONSHIP_DELETE' => 'Etes-vous sûr(e) de vouloir supprimer cette relation ?',
     'LBL_CONFIRM_DONT_SAVE' => 'Attention vous avez fait des modifications depuis votre dernière sauvegarde, voulez-vous sauvegarder ces modifications ?',
@@ -609,6 +609,10 @@ $mod_strings = array(
 
 //POPUP HELP
     'LBL_POPHELP_FIELD_DATA_TYPE' => 'Sélectionnez le type de donnée du champ que vous voulez ajouter',
+    'LBL_POPHELP_IMPORTABLE' => '<b>Oui</b>: Le champ sera inclus dans une opération d\'importation.<br><b>Non</b>: Le champ ne sera pas inclus dans une importation.<br><b>Requis</b>: Une valeur pour le champ doit être fournie dans toute importation.',
+    'LBL_POPHELP_IMAGE_WIDTH' => 'Entrez un nombre pour la largeur, mesurée en pixels.<br>L\'image téléchargée sera mise à l\'échelle de cette largeur.',
+    'LBL_POPHELP_IMAGE_HEIGHT' => 'Entrez un nombre pour la hauteur, mesurée en pixels.<br>L\'image téléchargée sera mise à l\'échelle de cette hauteur.',
+    'LBL_POPHELP_DUPLICATE_MERGE' => '<b>Activé</b>: Le champ apparaîtra dans la fonctionnalité Fusionner les doublons, mais ne sera pas disponible pour les conditions de filtrage dans la fonction Trouver les doublons.<br><b>Désactivé</b>: Le champ n\'apparaîtra pas dans la fonctionnalité Fusionner les doublons, et ne sera pas disponible pour les conditions de filtrage dans la fonction Trouver les doublons.<br><b>Filtre</b>: Le champ apparaîtra dans la fonctionnalité Fusionner les doublons, et sera disponible pour les conditions de filtrage dans la fonction Trouver les doublons.<br><b>Filtre sélectionné par défaut</b>: Le champ apparaîtra dans la fonctionnalité Fusionner les doublons, et sera utilisé par défaut pour les conditions de filtrage dans la fonction Trouver les doublons.<br><b>Seulement filtre</b>: Le champ n\'apparaîtra pas dans la fonctionnalité Dupliquer de Fusion, mais sera disponible pour les conditions de filtrage dans la fonction Trouver les doublons.',
 
 //Revert Module labels
     'LBL_RESET' => 'Réinitialiser',
@@ -633,11 +637,12 @@ $mod_strings = array(
         'date' => 'Date',
         'phone' => 'Téléphone',
         'currency' => 'Devise',
-        'html' => 'Texte HTML',
+        'html' => 'ReadOnly HTML (deprecated, use TextBlock)',
         'radioenum' => 'Bouton Radio',
         'relate' => 'Champ relatif',
         'address' => 'Adresse',
         'text' => 'Mémo',
+        'textblock' => 'Bloc de texte',
         'url' => 'URL',
         'iframe' => 'I-Frame',
         'datetimecombo' => 'Date et Heure',

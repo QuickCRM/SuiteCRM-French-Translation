@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Nom',
     'LBL_LIST_FROM_ADDR' => 'E-mail de',
     'LBL_LIST_DATE_START' => 'Date de début d&#39;envoi',
-    'LBL_LIST_TEMPLATE_NAME' => 'Modèle d&#39;E-mail',
+    'LBL_LIST_TEMPLATE_NAME' => 'Modèle d\'E-mail',
     'LBL_LIST_STATUS' => 'Statut',
     'LBL_STATUS' => 'Statut',
     'LBL_STATUS_TEXT' => 'Statut :',
@@ -65,11 +65,11 @@ $mod_strings = array(
     'LBL_MESSAGE_FOR' => 'Destinataires :',
 
     'LBL_FROM_NAME' => 'Nom de l&#39;expéditeur : ',
-    'LBL_FROM_ADDR' => 'E-mail de l&#39;expéditeur : ',
+    'LBL_FROM_ADDR' => 'E-mail de l\'expéditeur : ',
     'LBL_DATE_START' => 'Date de début',
     'LBL_TIME_START' => 'Heure début',
     'LBL_START_DATE_TIME' => 'Début de l&#39;envoi : ',
-    'LBL_TEMPLATE' => 'Modèle d&#39;E-mail : ',
+    'LBL_TEMPLATE' => 'Modèle d\'E-mail : ',
 
     'LBL_MODIFIED_BY' => 'Modifié par : ',
     'LBL_CREATED_BY' => 'Créé par : ',
@@ -100,9 +100,9 @@ $mod_strings = array(
     'LBL_SCHEDULE_BUTTON_LABEL' => 'Envoyer',
     'LBL_ERROR_ON_MARKETING' => 'Champ(s) obligatoire(s) manquant',
 
-    'LBL_CAMPAIGN_ID' => 'Campagne (ID)',
+    'LBL_CAMPAIGN_ID' => 'Identifiant de campagne',
     'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'Compte E-mail sortant',
-    'LBL_EMAIL_TEMPLATE' => 'Modèle d&#39;E-mail',
+    'LBL_EMAIL_TEMPLATE' => 'Modèle d\'E-mail',
     'LBL_PROSPECT_LISTS' => 'Listes de prospects',
 
 );

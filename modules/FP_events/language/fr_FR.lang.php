@@ -41,9 +41,9 @@
 if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
-
+                
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
@@ -79,17 +79,17 @@ $mod_strings = array(
     'LBL_INVITE_TEMPLATES' => 'Modèle d\'E-mail d\'invitation',
     'LBL_INVITE_PDF' => 'Envoyer les invitations',
     'LBL_EDITVIEW_PANEL1' => 'Détails de l\'évènement',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Invités',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Délègue',
     'LBL_ACCEPT_REDIRECT' => 'Accepter la redirection URL',
     'LBL_DECLINE_REDIRECT' => 'Refuser la redirection d\'URL',
-    'LBL_SELECT_DELEGATES' => 'Sélectionner les invités',
-    'LBL_SELECT_DELEGATES_TITLE' => 'Sélectionner les invités : -',
+    'LBL_SELECT_DELEGATES' => 'Sélectionner les délégués',
+    'LBL_SELECT_DELEGATES_TITLE' => 'Sélectionner les délégués : -',
     'LBL_SELECT_DELEGATES_TARGET_LIST' => 'Liste des cibles',
     'LBL_SELECT_DELEGATES_TARGETS' => 'Cibles',
     'LBL_SELECT_DELEGATES_CONTACTS' => 'Contacts',
-    'LBL_SELECT_DELEGATES_LEADS' => 'Leads',
-    'LBL_MANAGE_DELEGATES' => 'Gestion des invités',
-    'LBL_MANAGE_DELEGATES_TITLE' => 'Gestion des invités : -',
+    'LBL_SELECT_DELEGATES_LEADS' => 'Prospects',
+    'LBL_MANAGE_DELEGATES' => 'Gestion des délégués',
+    'LBL_MANAGE_DELEGATES_TITLE' => 'Gestion des délégués : -',
     'LBL_MANAGE_ACCEPTANCES' => 'Gestion des acceptations',
     'LBL_MANAGE_ACCEPTANCES_TITLE' => 'Gestion des acceptations : -',
     'LBL_MANAGE_ACCEPTANCES_ACCEPTED' => 'Accepté',
@@ -109,7 +109,7 @@ $mod_strings = array(
 
     'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Contacts',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Lieux',
-    'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Leads',
+    'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Prospects',
     'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Cibles',
 
     'LBL_HOURS_ABBREV' => 'h',
@@ -129,5 +129,5 @@ $mod_strings = array(
     // Email links
     'LBL_ACCEPT_LINK' => 'Accepter',
     'LBL_DECLINE_LINK' => 'Décliner',
-
+    
 );

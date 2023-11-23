@@ -5,7 +5,7 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2022 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -42,36 +42,59 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID de l\'utilisateur assigné',
+$mod_strings = [
+
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
-    'LBL_MODIFIED_NAME' => 'Modifié par',
+    'LBL_MODIFIED_NAME' => 'Modifié par (Nom)',
     'LBL_CREATED' => 'Créé par',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
-    'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_CREATED_USER' => 'Créé par l\'utilisateur',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
-    'LBL_LIST_FORM_TITLE' => 'Listes des index d\'évènements',
-    'LBL_MODULE_NAME' => 'Index des évènements',
-    'LBL_MODULE_TITLE' => 'Index des évènements',
-    'LBL_HOMEPAGE_TITLE' => 'Mon index d\'événement',
-    'LNK_NEW_RECORD' => 'Créer un index d\'événement',
-    'LNK_LIST' => 'Voir les index d\'événements',
-    'LBL_SEARCH_FORM_TITLE' => 'Rechercher dans l\'index des évènements',
+    'LBL_LIST_FORM_TITLE' => 'External OAuth Connection List',
+    'LBL_MODULE_NAME' => 'Connexions OAuth Externe',
+    'LBL_MODULE_TITLE' => 'Connexions OAuth Externe',
+    'LBL_HOMEPAGE_TITLE' => 'My External OAuth Connections',
+    'LNK_NEW_RECORD' => 'Create External OAuth Connection',
+
+    'LNK_LIST' => 'Connexions OAuth Externe',
+    'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Connections',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Voir l&#39;Historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
-    'LBL_NEW_FORM_TITLE' => 'Nouvel index d\'événement',
-    'LBL_ERROR' => 'Erreur',
-    'LBL_SUCCESS' => 'Succès',
-    'LBL_RECORD_MODULE' => 'Succès',
+    'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
-    'LBL_RECORD_ID' => 'ID de l’enregistrement',
-);
+    'LBL_LIST_DELETE' => 'Supprimer',
+    'LBL_TYPE' => 'Type',
+
+    'LBL_CLIENT_ID' => 'ID du client',
+    'LBL_CLIENT_SECRET' => 'Client Secret',
+    'LBL_TOKEN_TYPE' => 'Type de jeton',
+    'LBL_EXPIRES_IN' => 'Expires In',
+    'LBL_ACCESS_TOKEN' => 'Jeton d\'accès',
+    'LBL_REFRESH_TOKEN' => 'Actualiser le jeton',
+    'LBL_PROVIDER' => 'Prestataire',
+
+    'LBL_AUTHENTICATE' => 'Authenticate',
+
+
+    'LBL_EXTERNAL_OAUTH_PROVIDER' => 'Prestataire',
+    'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Prestataire',
+    'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'ID du prestataire',
+
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Connection',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Connection',
+    'LNK_LIST_INBOUND_EMAILS' => 'Inbound Email Accounts',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Comptes d\'E-mail sortant',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
+
+    'LBL_OWNER' => 'Assigné',
+];

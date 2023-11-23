@@ -101,4 +101,5 @@ $mod_strings = array(
     'LBL_HELP' => 'Aide' /*for 508 compliance fix*/,
     'COLUMN_TITLE_INLINE_EDIT_TEXT' => 'Edition rapide',
     'COLUMN_TITLE_PARENT_ENUM' => 'Menu déroulant parent',
+    'LBL_INSERT_FIELD' => 'Ajouter un champ',
 );

@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Affaires',
     'LBL_SEARCH_FORM_TITLE' => 'Rechercher une Affaire',
     'LBL_LIST_FORM_TITLE' => 'Liste des Affaires',
-    'LBL_OPPORTUNITY_NAME' => 'Nom Affaire :',
+    'LBL_OPPORTUNITY_NAME' => 'Nom de l\'Affaire :',
     'LBL_OPPORTUNITY' => 'Affaire :',
     'LBL_NAME' => 'Nom Affaire',
     'LBL_INVITEE' => 'Contacts',
@@ -61,10 +61,11 @@ $mod_strings = array(
     'LBL_ACCOUNT_ID' => 'Compte (ID)',
     'LBL_CURRENCY_NAME' => 'Devise',
     'LBL_CURRENCY_SYMBOL' => 'Symbole de la devise',
+    'LBL_DAYS_OPEN_FOR' => 'Cette affaire a été ouverte pour',
 
     'UPDATE' => 'Affaire - Devise mise à jour',
     'LBL_ACCOUNT_NAME' => 'Nom du compte :',
-    'LBL_AMOUNT' => 'Montant Affaire :',
+    'LBL_AMOUNT' => 'Montant de l\'Affaire :',
     'LBL_AMOUNT_USDOLLAR' => 'Montant :',
     'LBL_CURRENCY' => 'Devise :',
     'LBL_DATE_CLOSED' => 'Date de cloture (prévue) :',
@@ -96,17 +97,22 @@ $mod_strings = array(
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'Mes Affaires clôturées',
     'LBL_TOTAL_OPPORTUNITIES' => 'Total des Affaires',
     'LBL_CLOSED_WON_OPPORTUNITIES' => 'Affaires cloturées et gagnées',
-    'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID) :',
-    'LBL_MODIFIED_NAME' => 'Modifié par',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à :',
+    'LBL_MODIFIED_NAME' => 'Modifié par l\'utilisateur',
     'LBL_CREATED_USER' => 'Créé par',
     'LBL_MODIFIED_USER' => 'Modifié par',
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Campagnes',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projets',
     'LNK_IMPORT_OPPORTUNITIES' => 'Import Affaires',
-    'LBL_EDITLAYOUT' => 'Modifier la mise en page' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Modifier la mise en page'
+    /*for 508 compliance fix*/,
 
     // SNIP
 
     'LBL_AOS_CONTRACTS' => 'Contrats',
     'LBL_AOS_QUOTES' => 'Devis',
+
+    'LBL_SIZE_ANALYSIS' => 'Analyse de la taille',
+    'LBL_POSITION' => 'Rang',
+    'LBL_OUT_OF' => 'Hors',
 );

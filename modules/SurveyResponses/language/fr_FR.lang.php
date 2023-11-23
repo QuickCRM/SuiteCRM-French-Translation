@@ -39,11 +39,11 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                             => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID'                                                             => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME'                                                           => 'Assigné à',
     'LBL_SECURITYGROUPS'                                                             => 'Groupes de sécurité',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                              => 'Groupes de sécurité',
-    'LBL_ID'                                                                         => 'Identifiant',
+    'LBL_ID'                                                                         => 'ID',
     'LBL_DATE_ENTERED'                                                               => 'Date de création',
     'LBL_DATE_MODIFIED'                                                              => 'Date de modification',
     'LBL_MODIFIED'                                                                   => 'Modifié par',
@@ -79,5 +79,7 @@ $mod_strings = array(
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYS_TITLE'                                 => 'Sondage',
     'LBL_QUESTION_RESPONSES_DISPLAY'                                                 => 'Réponses à la question',
     'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE'                             => 'Campagne',
+    'LBL_QUESTION' => 'Question',
+    'LBL_RESPONSE' => 'Réponse'
 
 );

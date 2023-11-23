@@ -52,8 +52,6 @@ $mod_strings = array(
     'LBL_OOTB_PRUNE' => 'Purger la BDD le premier de chaque mois',
     'LBL_OOTB_TRACKER' => 'Purger les tables des Suivis',
     'LBL_OOTB_SUITEFEEDS' => 'Tables Prune SuiteCRM',
-    'LBL_OOTB_LUCENE_INDEX' => 'Activer l\'indexation par Lucene',
-    'LBL_OOTB_OPTIMISE_INDEX' => 'Optimiser l\'index d\'Advanced OpenDiscovery',
     'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Exécuter les notifications par E-mail',
     'LBL_OOTB_CLEANUP_QUEUE' => 'Nettoyer la file des jobs',
     'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Suppression des documents du système de fichier',
@@ -78,13 +76,13 @@ $mod_strings = array(
     'LBL_EVERY' => 'Tous',
     'LBL_FROM' => 'De',
     'LBL_ON_THE' => 'Toutes les',
-    'LBL_RANGE' => ' à ',
+    'LBL_RANGE' => 'à',
     'LBL_AND' => 'et',
     'LBL_MINUTES' => 'minutes',
     'LBL_HOUR' => 'heures',
     'LBL_HOUR_SING' => 'heures',
     'LBL_OFTEN' => 'Aussi souvent que possible.',
-    'LBL_MIN_MARK' => ' minutes',
+    'LBL_MIN_MARK' => 'minutes',
 
 
 // crontabs
@@ -130,10 +128,10 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'L&#39;ordre de cette planification va apparaitre dans les listes déroulantes du planificateur',
     'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Pour configurer le planificateur Windows',
     'LBL_CRON_INSTRUCTIONS_LINUX' => 'Pour configurer la Crontab',
-    'LBL_CRON_LINUX_DESC1' => 'Afin d’exécuter les planifications SuiteCRM, ajoutez à votre fichier crontab cette commande : ',
-    'LBL_CRON_LINUX_DESC2' => '... et ajoutez la ligne suivante dans le fichier crontab : ',
+    'LBL_CRON_LINUX_DESC1' => 'Afin d’exécuter les planifications SuiteCRM, ajoutez à votre fichier crontab cette commande :',
+    'LBL_CRON_LINUX_DESC2' => '... et ajoutez la ligne suivante dans le fichier crontab :',
     'LBL_CRON_LINUX_DESC3' => 'Vous devriez faire ceci uniquement lorsque l\'installation sera terminée.',
-    'LBL_CRON_WINDOWS_DESC' => 'Remarque : Afin de lancer les planificateurs de SuiteCRM, créez un fichier batch pour exécuter les tâches planifiées à l\'aide du planificateur de tâches de Windows. Le fichier batch devrait inclure les commandes suivantes : ',
+    'LBL_CRON_WINDOWS_DESC' => 'Remarque : Afin de lancer les planificateurs de SuiteCRM, créez un fichier batch pour exécuter les tâches planifiées à l\'aide du planificateur de tâches de Windows. Le fichier batch devrait inclure les commandes suivantes :',
 // Subpanels
     'LBL_JOBS_SUBPANEL_TITLE' => 'Journal des tâches',
     'LBL_EXECUTE_TIME' => 'Date d&#39;execution',
@@ -152,9 +150,7 @@ $mod_strings = array(
     'LBL_CLEANJOBQUEUE' => 'Nettoyer la liste des jobs en attente',
     'LBL_REMOVEDOCUMENTSFROMFS' => 'Suppression des documents du système de fichier',
 
-    'LBL_AODOPTIMISEINDEX' => 'Optimiser les index d\'Advanced OpenDiscovery',
-    'LBL_AODINDEXUNINDEXED' => 'Indexe les documents non indexés',
-    'LBL_POLLMONITOREDINBOXESAOP' => 'Interrogation des messageries contrôlées par AOP',
+    'LBL_POLLMONITOREDINBOXESAOP' => 'Interrogation des messageries contrôlées par Joomla',
     'LBL_AORRUNSCHEDULEDREPORTS' => 'Exécuter les rapports planifiés',
     'LBL_PROCESSAOW_WORKFLOW' => 'Process d\'AOS Workflow',
 

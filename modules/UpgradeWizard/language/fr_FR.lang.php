@@ -177,7 +177,7 @@ $mod_strings = array(
     'LBL_UW_SKIPPED_FILES_TITLE' => 'Fichiers ignorés',
     'LBL_UW_SQL_RUN' => 'Vérifier quand SQL a été lancé manuellement',
     'LBL_UW_START_DESC' => 'Bienvenue à l&#39;assistant de mise à jour. Cette assistant est concu pour assister les administrateurs lors de la mise à jour de leurs instances SuiteCRM.  Merci de suivre prudemment les instructions qui vous sont données.',
-    'LBL_UW_START_DESC2' => 'Remarque : Nous vous recommandons fortement de créer une copie de l’instance que vous utilisez en production et de tester le paquet de mise à niveau avant de déployer la nouvelle version. Une fois le processus de mise à niveau terminé et si vous avez auparavant modifié le fichier "composer.json", veuillez s\'il vous plait exécuter la commande suivante :<br/><br/><pre>composer update</pre>', // Keep the <pre>composer update</pre> words at the end of the sentence and do not translate it
+    'LBL_UW_START_DESC2' => 'Remarque : Nous vous recommandons fortement de créer une copie de l’instance que vous utilisez en production et de tester le paquet de mise à niveau avant de déployer la nouvelle version. Une fois le processus de mise à niveau terminé et si vous avez auparavant modifié le fichier "composer.json", veuillez s\'il vous plait exécuter la commande suivante :<br/><br/><pre>composer install --no-dev</pre>', // Keep the <pre>composer install --no-dev</pre> words at the end of the sentence and do not translate it
     'LBL_UW_START_DESC3' => 'Cliquez sur Suivant pour vérifier votre système et s&#39;assurer qu&#39;il est prêt pour la mise à jour. La vérification inclus les permissions sur les fichiers, sur la base de données et les paramètres système.',
     'LBL_UW_START_UPGRADED_UW_DESC' => 'Le nouvel assistant de mise à jour indiquera désormais les étapes de traitement. Merci de poursuivre votre mise à jour.',
     'LBL_UW_START_UPGRADED_UW_TITLE' => 'Bienvenue au nouvel Assistant de mise à jour',
@@ -233,7 +233,7 @@ $mod_strings = array(
     //adding the string used in tracker. copying from homepage
     'LBL_CURRENT_PHP_VERSION' => 'Votre version courrante de PHP est : ',
     'LBL_RECOMMENDED_PHP_VERSION_1' => 'La version php recommandée est ',
-    'LBL_RECOMMENDED_PHP_VERSION_2' => ' ou supérieure.', // End of a sentence as in Recommended PHP version is version X.Y or above
+    'LBL_RECOMMENDED_PHP_VERSION_2' => ' ou supérieure.',  // End of a sentence as in Recommended PHP version is version X.Y or above
 
     'LBL_MODULE_NAME' => 'Assistant de mise à jour',
     'LBL_UPLOAD_SUCCESS' => 'Package de mise à jour correctement transféré. Cliquez sur Suivant pour réaliser une dernière vérification.',

@@ -42,9 +42,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'ID de l\'utilisateur assigné';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Identifiant de l\'utilisateur assigné';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Utilisateur';
-$mod_strings['LBL_ID'] = 'Identifiant';
+$mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Date de création';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Date de modification';
 $mod_strings['LBL_MODIFIED'] = 'Modifié par';
@@ -54,7 +54,7 @@ $mod_strings['LBL_DESCRIPTION'] = 'Description';
 $mod_strings['LBL_DELETED'] = 'Supprimé';
 $mod_strings['LBL_NAME'] = 'Nom';
 $mod_strings['LBL_CREATED_USER'] = 'Créé par';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modifié par';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modifié par l\'utilisateur';
 $mod_strings['LBL_LIST_NAME'] = 'Nom';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Liste des zones';
 $mod_strings['LBL_MODULE_NAME'] = 'Zones';
@@ -67,7 +67,7 @@ $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Voir l&#39;Historique';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activités';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Nouvelles zones';
 $mod_strings['LBL_CITY'] = 'Ville';
-$mod_strings['LBL_STATE'] = 'État ou région';  //For address fields
+$mod_strings['LBL_STATE'] = 'Région';
 $mod_strings['LBL_COUNTRY'] = 'Pays';
 $mod_strings['LBL_COORDINATES'] = 'Coordonnées';
 $mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Utilisateur';

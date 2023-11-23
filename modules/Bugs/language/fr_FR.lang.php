@@ -87,6 +87,7 @@ $mod_strings = array(
     'LBL_LIST_ACCOUNT_NAME' => 'Nom Compte',
     'LBL_LIST_PHONE' => 'Téléphone',
     'NTC_DELETE_CONFIRMATION' => 'Etes-vous sûr(e) de vouloir supprimer ce Contact du Bug ?',
+    'NTC_SNOOZE_CONFIRMATION' => 'Êtes-vous sûr de vouloir reporter ?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Suivi Anomalies',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités à Réaliser',
@@ -96,9 +97,9 @@ $mod_strings = array(
     'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projets',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Utilisateur attribué',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
 
-    'LBL_BUG_INFORMATION' => 'Aperçu', //Can be translated in all caps. This string will be used by SuiteP template menu actions
+    'LBL_BUG_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

@@ -5,7 +5,7 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -44,9 +44,9 @@
 <!-- BEGIN: Quote -->
 <p><b>{ASSIGNER}</b> a attribué un devis à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {QUOTE_SUBJECT}<br />
-Statut : {QUOTE_STATUS}<br />
-Date d'expiration : {QUOTE_CLOSEDATE}<br />
+Objet : {QUOTE_SUBJECT}<br/>
+Statut : {QUOTE_STATUS}<br/>
+Date de clôture prévue : {QUOTE_CLOSEDATE}<br/>
 Description : {QUOTE_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce devis</a>.</p>
@@ -58,8 +58,8 @@ Description : {QUOTE_DESCRIPTION}
 <!-- BEGIN: Account -->
 <p><b>{ASSIGNER}</b> a attribué un compte à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Nom : {ACCOUNT_NAME}<br />
-Type : {ACCOUNT_TYPE}<br />
+Nom : {ACCOUNT_NAME}<br/>
+Type : {ACCOUNT_TYPE}<br/>
 Description : {ACCOUNT_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce compte</a>.</p>
@@ -71,9 +71,9 @@ Description : {ACCOUNT_DESCRIPTION}
 <!-- BEGIN: Case -->
 <p><b>{ASSIGNER}</b> a attribué un ticket à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {CASE_SUBJECT}<br />
-Priorité : {CASE_PRIORITY}<br />
-Statut : {CASE_STATUS}<br />
+Objet: {CASE_SUBJECT}<br/>
+Priorité : {CASE_PRIORITY}<br/>
+Statut : {CASE_STATUS}<br/>
 Description : {CASE_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce ticket</a>.</p>
@@ -85,10 +85,10 @@ Description : {CASE_DESCRIPTION}
 <!-- BEGIN: Task -->
 <p><b>{ASSIGNER}</b> a attribué une tâche à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {TASK_SUBJECT}<br />
-Priorité : {TASK_PRIORITY}<br />
-Date d'échéance : {TASK_DUEDATE}<br />
-Statut : {TASK_STATUS}<br />
+Objet : {TASK_SUBJECT}<br/>
+Priorité : {TASK_PRIORITY}<br/>
+Date d'échéance : {TASK_DUEDATE}<br/>
+Statut : {TASK_STATUS}<br/>
 Description : {TASK_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cette tâche</a>.</p>
@@ -101,17 +101,17 @@ Description : {TASK_DESCRIPTION}
 <p>À: {MEETING_TO}</p>
 <p><b>{ASSIGNER}</b> vous a invité à une réunion</p>
 <p>
-Sujet : {MEETING_SUBJECT}<br />
-Emplacement : {MEETING_LOCATION}<br />
-Début : {MEETING_STARTDATE}<br />
-Fin : {MEETING_ENDDATE}
+Objet : {MEETING_SUBJECT}<br/>
+Emplacement : {MEETING_LOCATION}<br/>
+Date de début : {MEETING_STARTDATE}<br/>
+Date de fin : {MEETING_ENDDATE}
 </p>
 <p>
 <!-- BEGIN: Meeting_External_API -->
 Lien vers la réunion : {MEETING_URL}
 </p>
 <!-- END: Meeting_External_API -->
-<p>Description : {MEETING_DESCRIPTION}<br />
+<p>Description : {MEETING_DESCRIPTION}<br/>
 </p>
 <p>---</p>
 <p><a href={ACCEPT_URL}&accept_status=accept>Accepter cette réunion</a>.</p>
@@ -125,11 +125,11 @@ Lien vers la réunion : {MEETING_URL}
 <!-- BEGIN: MeetingSpecial -->
 <p><b>{ASSIGNER}</b> a attribué une réunion à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {MEETING_SUBJECT}<br />
-Emplacement : {MEETING_LOCATION}<br />
-Statut : {MEETING_STATUS}<br />
-Début : {MEETING_STARTDATE}<br />
-Fin : {MEETING_ENDDATE}<br />
+Objet : {MEETING_SUBJECT}<br/>
+Emplacement : {MEETING_LOCATION}<br/>
+Statut : {MEETING_STATUS}<br/>
+Date de début : {MEETING_STARTDATE}<br/>
+Date de fin : {MEETING_ENDDATE}<br/>
 Description : {MEETING_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cette réunion</a>.</p>
@@ -140,10 +140,10 @@ Description : {MEETING_DESCRIPTION}
 <!-- END: MeetingSpecial_Subject -->
 <!-- BEGIN: MeetingReminder -->
 <p>
-    Titre : {MEETING_SUBJECT}<br />     
-Date : {MEETING_STARTDATE}<br />
-Emplacement : {MEETING_LOCATION}<br />
-Créé par : {MEETING_CREATED_BY}
+Titre : {MEETING_SUBJECT}<br/>
+Quand: {MEETING_STARTDATE}<br/>
+Emplacement: {MEETING_LOCATION}<br/>
+Créé par: {MEETING_CREATED_BY}
 </p>
 <!-- END: MeetingReminder -->
 
@@ -153,7 +153,7 @@ Créé par : {MEETING_CREATED_BY}
 <!-- BEGIN: Email -->
 <p><b>{ASSIGNER}</b> a attribué un E-mail à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {EMAIL_SUBJECT}<br />
+Objet: {EMAIL_SUBJECT}<br/>
 Date d'envoi : {EMAIL_DATESENT}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cet E-mail</a>.</p>
@@ -165,7 +165,7 @@ Date d'envoi : {EMAIL_DATESENT}
 <!-- BEGIN: Contact -->
 <p><b>{ASSIGNER}</b> a attribué un contact à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Nom : {CONTACT_NAME}<br />
+Nom : {CONTACT_NAME}<br/>
 Description : {CONTACT_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce contact</a>.</p>
@@ -177,9 +177,9 @@ Description : {CONTACT_DESCRIPTION}
 <!-- BEGIN: Lead -->
 <p><b>{ASSIGNER}</b> a attribué un prospect à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Nom : {LEAD_NAME}<br />
-Origine du lead : {LEAD_SOURCE}<br />
-Statut : {LEAD_STATUS}<br />
+Nom : {LEAD_NAME}<br/>
+Origine du lead : {LEAD_SOURCE}<br/>
+Statut : {LEAD_STATUS}<br/>
 Description : {LEAD_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce prospect</a>.</p>
@@ -191,10 +191,10 @@ Description : {LEAD_DESCRIPTION}
 <!-- BEGIN: Opportunity -->
 <p><b>{ASSIGNER}</b> a attribué une opportunité à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Nom : {OPPORTUNITY_NAME}<br />
-Montant : {OPPORTUNITY_AMOUNT}<br />
-Date de clôture prévue : {OPPORTUNITY_CLOSEDATE}<br />
-Étape de vente : {OPPORTUNITY_STAGE}<br />
+Nom : {OPPORTUNITY_NAME}<br/>
+Montant : {OPPORTUNITY_AMOUNT}<br/>
+Date de clôture prévue : {OPPORTUNITY_CLOSEDATE}<br/>
+Étape de vente : {OPPORTUNITY_STAGE}<br/>
 Description : {OPPORTUNITY_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cette opportunité</a>.</p>
@@ -206,15 +206,15 @@ Description : {OPPORTUNITY_DESCRIPTION}
 <!-- BEGIN: Bug -->
 <p><b>{ASSIGNER}</b> a attribué une anomalie à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-N° de anomalie: {BUG_BUG_NUMBER}<br />
-Sujet : {BUG_SUBJECT}<br />
-Type : {BUG_TYPE}<br />
-Priorité : {BUG_PRIORITY}<br />
-Statut : {BUG_STATUS}<br />
-Résolution : {BUG_RESOLUTION}<br />
-Version : {BUG_RELEASE}<br />
-Description : {BUG_DESCRIPTION}<br />
-Log de travail : {BUG_WORK_LOG}
+Numéro de bug : {BUG_BUG_NUMBER}<br/>
+Objet : {BUG_SUBJECT}<br/>
+Type : {BUG_TYPE}<br/>
+Priorité : {BUG_PRIORITY}<br/>
+Statut : {BUG_STATUS}<br/>
+Résolution : {BUG_RESOLUTION}<br/>
+Version : {BUG_RELEASE}<br/>
+Description : {BUG_DESCRIPTION}<br/>
+Journal de travail : {BUG_WORK_LOG}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cette anomalie</a>.</p>
 <!-- END: Bug -->
@@ -234,11 +234,11 @@ Log de travail : {BUG_WORK_LOG}
 <p>À : {CALL_TO}</p>
 <p><b>{ASSIGNER}</b> vous à invité à un appel</p>
 <p>
-Sujet : {CALL_SUBJECT}<br />
-Statut : {CALL_STATUS}<br />
-Date de début : {CALL_STARTDATE}<br />
-Durée : {CALL_HOURS}h, {CALL_MINUTES}m<br />
-Description : {CALL_DESCRIPTION}<br />
+Objet : {CALL_SUBJECT}<br/>
+Statut : {CALL_STATUS}<br/>
+Date de début : {CALL_STARTDATE}<br/>
+Durée : {CALL_HOURS}h, {CALL_MINUTES}m<br/>
+Description : {CALL_DESCRIPTION}<br/>
 </p>
 <p>---</p>
 <p><a href={ACCEPT_URL}&accept_status=accept>Accepter cet appel</a>.</p>
@@ -252,10 +252,10 @@ Description : {CALL_DESCRIPTION}<br />
 <!-- BEGIN: CallSpecial -->
 <p><b>{ASSIGNER}</b> a attribué un appel à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {CALL_SUBJECT}<br />
-Statut : {CALL_STATUS}<br />
-Date de début : {CALL_STARTDATE}<br />
-Durée : {CALL_HOURS}h, {CALL_MINUTES}m<br />
+Objet : {CALL_SUBJECT}<br/>
+Statut : {CALL_STATUS}<br/>
+Date de début : {CALL_STARTDATE}<br/>
+Durée : {CALL_HOURS}h, {CALL_MINUTES}m<br/>
 Description : {CALL_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cet appel</a>.</p>
@@ -266,9 +266,9 @@ Description : {CALL_DESCRIPTION}
 <!-- END: CallReminder_Subject -->
 <!-- BEGIN: CallReminder -->
 <p>
-    Titre : {CALL_SUBJECT}<br />
-    Quand : {CALL_STARTDATE}<br />
-    Créé par : {CALL_CREATED_BY}
+Titre : {CALL_SUBJECT}<br/>
+Quand : {CALL_STARTDATE}<br/>
+Créé par: {CALL_CREATED_BY}
 </p>
 <!-- END: CallReminder -->
 
@@ -278,10 +278,10 @@ Description : {CALL_DESCRIPTION}
 <!-- BEGIN: Campaign -->
 <p><b>{ASSIGNER}</b> a attribué une campagne à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Sujet : {CAMPAIGN_NAME}<br />
-Montant : {CAMPAIGN_AMOUNT}<br />
-Date de clôture : {CAMPAIGN_CLOSEDATE}<br />
-Statut : {CAMPAIGN_STATUS}<br />
+Objet : {CAMPAIGN_NAME}<br/>
+Montant : {CAMPAIGN_AMOUNT}<br/>
+Date de clôture : {CAMPAIGN_CLOSEDATE}<br/>
+Statut : {CAMPAIGN_STATUS}<br/>
 Description : {CAMPAIGN_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier cette campagne</a>.</p>
@@ -293,8 +293,8 @@ Description : {CAMPAIGN_DESCRIPTION}
 <!-- BEGIN: Quota -->
 <p><b>{ASSIGNER}</b> a attribué un objectif à <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Montant : {QUOTA_AMOUNT}<br />
-Période : {QUOTA_TIMEPERIOD}
+    Montant : {QUOTA_AMOUNT}<br/>
+    Période : {QUOTA_TIMEPERIOD}
 </p>
 <p>Vous pouvez <a href={QUOTA_URL}>vérifier cette attribution d'objectif</a>.</p>
 <!-- END: Quota -->
@@ -306,10 +306,10 @@ Période : {QUOTA_TIMEPERIOD}
 {NOTIFICATION_MESSAGE}
 
 <p>
-Nom : {KBDOCUMENT_NAME}<br />
-Date de création : {KBDOCUMENT_DATE_CREATED}<br />
-Créé par : {KBDOCUMENT_CREATED_BY}<br />
-Statut : {KBDOCUMENT_STATUS}<br />
+Nom : {KBDOCUMENT_NAME}<br/>
+Date de création : {KBDOCUMENT_DATE_CREATED}<br/>
+Créé par: {KBDOCUMENT_CREATED_BY}<br/>
+Statut : {KBDOCUMENT_STATUS}<br/>
 Description : {KBDOCUMENT_DESCRIPTION}
 </p>
 <p>Vous pouvez <a href={URL}>vérifier ce document</a>.</p>

@@ -73,4 +73,3 @@ $mod_strings = array(
     'LBL_PROCEED' => 'Voulez-vous continuer la fusion ?',
     'LBL_STEP1_DIRECTIONS' => 'Recherche de doublons potentiels. Si des doublons sont détectés, vous pourrez sélectionner quels enregistrements seront à fusionner avec l&#39;enregistrement courant.',
 );
-

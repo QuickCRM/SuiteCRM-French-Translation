@@ -39,11 +39,11 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                                   => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID'                                                                   => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME'                                                                 => 'Assigné à',
     'LBL_SECURITYGROUPS'                                                                   => 'Groupes de sécurité',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                    => 'Groupes de sécurité',
-    'LBL_ID'                                                                               => 'Identifiant',
+    'LBL_ID'                                                                               => 'ID',
     'LBL_DATE_ENTERED'                                                                     => 'Date de création',
     'LBL_DATE_MODIFIED'                                                                    => 'Date de modification',
     'LBL_MODIFIED'                                                                         => 'Modifié par',
@@ -52,6 +52,7 @@ $mod_strings = array(
     'LBL_CREATED'                                                                          => 'Créé par',
     'LBL_CREATED_ID'                                                                       => 'Créé par (ID)',
     'LBL_DESCRIPTION'                                                                      => 'Description',
+    'LBL_SORT_ORDER'                                                                       => 'Tri',
     'LBL_DELETED'                                                                          => 'Supprimé',
     'LBL_NAME'                                                                             => 'Nom',
     'LBL_CREATED_USER'                                                                     => 'Créé par l\'utilisateur',

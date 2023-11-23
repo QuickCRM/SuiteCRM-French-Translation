@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ALL_MODULES' => 'Tout',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_LIST_NONINHERITABLE' => 'Non héritable',
     'LBL_NAME' => 'Nom',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_FORM_TITLE' => 'Groupes de sécurité',
     'LBL_MODULE_NAME' => 'Gestion de la sécurité',
     'LBL_MODULE_TITLE' => 'Gestion de la sécurité',
@@ -118,6 +118,7 @@ $mod_strings = array(
 
     'LBL_GROUP_SELECT' => 'Sélectionner les groupes qui pourront avoir accès à cet enregistrement',
     'LBL_ERROR_DUPLICATE' => 'SuiteCRM détecte qu\'il peut y avoir un doublon dans les enregistrements. Vous allez devoir ajouter manuellement un groupe de sécurité à ce nouvel enregistrement.',
+    'LBL_ERROR_EXPORT_WHERE_CHANGED' => 'Mise à jour a échoué car le filtre de recherche a été modifié. Veuillez réessayer.',
 
     'LBL_INBOUND_EMAIL' => 'Compte d\'E-mail entrant',
     'LBL_INBOUND_EMAIL_DESC' => 'Uniquement permettre l\'accès au compte E-mail si l\'utilisateur est membre du groupe assigné à ce compte E-mail.',

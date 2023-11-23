@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Tâches de Projet',
+    'LBL_MODULE_NAME' => 'Tâches du Projet',
     'LBL_MODULE_TITLE' => 'Tâches Projet',
 
     'LBL_ID' => 'ID :',
@@ -79,6 +79,7 @@ $mod_strings = array(
     'LBL_ACTUAL_EFFORT' => 'Effort actuel (hrs) :',
     'LBL_UTILIZATION' => 'Utilisation (%) :',
     'LBL_DELETED' => 'Supprimé :',
+    'LBL_IMPORT_PROJECT_TASKS' => 'Importer des projets',
 
     'LBL_LIST_NAME' => 'Nom',
     'LBL_LIST_PARENT_NAME' => 'Projet',
@@ -93,10 +94,10 @@ $mod_strings = array(
     'LNK_NEW_PROJECT' => 'Créer Projet',
     'LNK_PROJECT_LIST' => 'Liste des Projets',
     'LNK_NEW_PROJECT_TASK' => 'Créer Tâche Projet',
-    'LNK_PROJECT_TASK_LIST' => 'Tâches de Projet',
+    'LNK_PROJECT_TASK_LIST' => 'Tâches du Projet',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'Mes tâches de projet',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tâches de Projet',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tâches du Projet',
     'LBL_NEW_FORM_TITLE' => 'Nouvelle Tâche Projet',
 
     'LBL_HISTORY_TITLE' => 'Historique',
@@ -113,4 +114,7 @@ $mod_strings = array(
     'LBL_DAYS' => 'Jours',
     'LBL_HOURS' => 'Heures',
     'LBL_RELATIONSHIP_TYPE' => 'Type de relation',
+
+    'LBL_ASCENDING' => 'Croissant',
+    'LBL_DESCENDING' => 'Décroissant',
 );

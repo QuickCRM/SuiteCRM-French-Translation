@@ -45,10 +45,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'ERR_DELETE_RECORD' => 'Un numéro d&#39;enregistrement doit être spécifié pour toute suppression.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'Suggestions bases de connaissances',
-    'LBL_TOOL_TIP_TITLE' => 'Titre : ',
-    'LBL_TOOL_TIP_BODY' => 'Corps : ',
-    'LBL_TOOL_TIP_INFO' => 'Informations additionnelles : ',
-    'LBL_TOOL_TIP_USE' => 'Utilisé comme : ',
+    'LBL_TOOL_TIP_TITLE' => 'Titre :',
+    'LBL_TOOL_TIP_BODY' => 'Corps :',
+    'LBL_TOOL_TIP_INFO' => 'Informations additionnelles :',
+    'LBL_TOOL_TIP_USE' => 'Utilisé comme :',
     'LBL_SUGGESTION_BOX' => 'Suggestions',
     'LBL_NO_SUGGESTIONS' => 'Aucune suggestion',
     'LBL_RESOLUTION_BUTTON' => 'Résolution',
@@ -105,18 +105,18 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Créé par',
     'LBL_MODIFIED_USER' => 'Modifié par',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projets',
-    'LBL_CASE_INFORMATION' => 'Aperçu',  //Can be translated in all caps. This string will be used by SuiteP template menu actions
+    'LBL_CASE_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
-    'LBL_UPDATE_TEXT' => 'Ajouter :', //Field for Case updates with text only
+    'LBL_UPDATE_TEXT' => 'Mettre le texte à jour', //Field for Case updates with text only
     'LBL_INTERNAL' => 'Mise à jour en interne',
-    'LBL_AOP_CASE_UPDATES' => 'Mises à jour de ticket',
-    'LBL_AOP_CASE_UPDATES_THREADED' => 'Historique du ticket',
+    'LBL_AOP_CASE_UPDATES' => 'Mises à jour du cas',
+    'LBL_AOP_CASE_UPDATES_THREADED' => 'Fil de mises à jour du cas',
     'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Tout refermer',
     'LBL_CASE_UPDATES_EXPAND_ALL' => 'Tout ouvrir',
-    'LBL_AOP_CASE_ATTACHMENTS' => 'Pièces jointes : ',
+    'LBL_AOP_CASE_ATTACHMENTS' => 'Pièces jointes :',
 
-    'LBL_AOP_CASE_EVENTS' => 'Événements du ticket',
+    'LBL_AOP_CASE_EVENTS' => 'Événements du Cas',
     'LBL_CASE_ATTACHMENTS_DISPLAY' => 'Pièces jointes au cas',
     'LBL_ADD_CASE_FILE' => 'Ajouter un fichier',
     'LBL_REMOVE_CASE_FILE' => 'Supprimer un fichier',
@@ -127,6 +127,5 @@ $mod_strings = array(
     'LBL_CONTACT_CREATED_BY_NAME' => 'Créé par le contact',
     'LBL_CONTACT_CREATED_BY' => 'Créé par',
     'LBL_CASE_UPDATE_FORM' => 'Actualiser le formulaire attaché', //Form for attachments on case updates
-    'LBL_CREATOR_PORTAL' => 'URL du portail', //PR 5426
-    'LBL_SUGGESTION' => 'Suggestion', //PR 5426
+    'LBL_UNKNOWN_CONTACT' => 'Contact inconnu',
 );

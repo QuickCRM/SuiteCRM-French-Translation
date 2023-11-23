@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID de l\'utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -64,7 +64,13 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Comptes d\'E-mail sortant',
     'LBL_HOMEPAGE_TITLE' => 'Mes comptes d\'E-mail sortant',
     'LNK_NEW_RECORD' => 'Créer des comptes d\'E-mail sortant',
-    'LNK_LIST' => 'Voir les Comptes d\'E-mail sortant',
+
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nouveau compte personnel',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nouveau compte de groupe',
+    'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'New System Override Outbound Email Account',
+
+    'LNK_LIST' => 'Comptes d\'E-mail sortant',
+    'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Inbound Email Accounts',
     'LBL_SEARCH_FORM_TITLE' => 'Rechercher des comptes d\'E-mail sortant',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Afficher l\'historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
@@ -76,20 +82,22 @@ $mod_strings = array(
     'LBL_SMTP_PORT' => 'Port SMTP',
     'LBL_SMTP_PROTOCOL' => 'Protocole SMTP',
     'LBL_EDITVIEW_PANEL1' => 'Paramètres de compte',
+    'LBL_OUTBOUND_CONFIGURATION' => 'Outbound Configuration',
+    'LBL_CONNECTION_CONFIGURATION' => 'Configuration du Serveur',
     'LBL_CHANGE_PASSWORD' => 'Changer le mot de passe',
     'LBL_SEND_TEST_EMAIL' => 'Envoyer un E-mail de test',
 
     // for outbound email dialog
     'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'L\'administrateur n\'a pas encore configuré de compte sortant par défaut. Impossible d\'envoyer l\'E-mail de test.',
     'LBL_MAIL_SMTPAUTH_REQ' => 'Utiliser l&#39;authentification SMTP?',
-    'LBL_MAIL_SMTPPASS' => 'Mot de passe SMTP :',
-    'LBL_MAIL_SMTPPORT' => 'Port SMTP :',
-    'LBL_MAIL_SMTPSERVER' => 'Serveur SMTP :',
-    'LBL_MAIL_SMTPUSER' => 'Nom d&#39;utilisateur SMTP :',
+    'LBL_MAIL_SMTPPASS' => 'Mot de Passe',
+    'LBL_MAIL_SMTPPORT' => 'Port',
+    'LBL_MAIL_SMTPSERVER' => 'Serveur',
+    'LBL_MAIL_SMTPUSER' => 'Nom d\'utilisateur',
     'LBL_MAIL_SMTP_SETTINGS' => 'Spécification du serveur SMTP',
     'LBL_CHOOSE_EMAIL_PROVIDER' => 'Choisissez votre fournisseur de messagerie :',
     'LBL_YAHOOMAIL_SMTPPASS' => 'Yahoo! Mail - Mot de passe :',
-    'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! Mail - E-mail :',
+    'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! Mail - Identifiant :',
     'LBL_GMAIL_SMTPPASS' => 'Gmail - Mot de passe :',
     'LBL_GMAIL_SMTPUSER' => 'Adresse E-mail Gmail :',
     'LBL_EXCHANGE_SMTPPASS' => 'Exchange - Mot de passe :',
@@ -100,6 +108,15 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type',
     'LBL_MAIL_SENDTYPE' => 'Type d’envoi d\'e-mail',
     'LBL_MAIL_SMTPSSL' => 'Messagerie SMTP/SSL',
-    'LBL_SMTP_FROM_NAME' => 'Nom de l&#39;expéditeur des e-mails',
-    'LBL_SMTP_FROM_ADDR' => 'E-mail de l&#39;expéditeur',
+    'LBL_SMTP_FROM_NAME' => 'Nom de l\'expéditeur des e-mails',
+    'LBL_SMTP_FROM_ADDR' => 'E-mail de l\'expéditeur',
+    'LBL_REPLY_TO_NAME' => 'Nom de "Réponse à" :',
+    'LBL_REPLY_TO_ADDR' => 'Adresse de "Répondre-à" : ',
+
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Groupes de sécurité',
+
+    'LBL_OWNER' => 'Assigné',
+    'LBL_OWNER_NAME' => 'Assigné',
+
+    'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Connexions OAuth Externe'
 );

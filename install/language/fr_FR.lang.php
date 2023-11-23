@@ -1,6 +1,6 @@
 <?php
 /**
- * ç
+ *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
@@ -43,6 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
+    'LBL_BASIC' => 'Basique',
     'LBL_BASIC_SEARCH' => 'Filtre rapide',
     'LBL_ADVANCED_SEARCH' => 'Filtre avancé',
     'LBL_BASIC_TYPE' => 'Type de base',
@@ -57,6 +58,7 @@ $mod_strings = array(
     'ERR_ADMIN_PASS_BLANK' => 'Saisissez le mode de passe de l\'administrateur de SuiteCRM.',
 
     'ERR_CHECKSYS' => 'Des erreurs ont été détectées pendant le test de compatibilité. Veuillez mettre en place les mesures correctives nécessaires au bon fonctionnement de SuiteCRM avant de relancer le test de compatibilité ou une nouvelle installation.',
+    'ERR_CHECKSYS_CALL_TIME' => 'Allow Call Time Pass Reference est sur On (elle doit être passée à Off dans php.ini)',
     'ERR_CHECKSYS_CURL' => 'Non trouvé : le planificateur de SuiteCRM fonctionnera de manière limitée.',
     'ERR_CHECKSYS_IMAP' => 'Non trouvé : Les fonctions de campagnes E-mail et gestion des E-mails entrants nécessitent la présence des librairies IMAP. Ces fonctions ne sont donc pas activées.',
     'ERR_CHECKSYS_MEM_LIMIT_1' => '(Veuillez régler ceci sur',
@@ -74,6 +76,7 @@ $mod_strings = array(
     'ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE' => 'Le fichier de substitution de configuration existe mais n\'est pas accessible en écriture.  Veuillez faire le nécessaire pour rendre le fichier accessible en écriture.  Selon votre système d\'exploitation, vous devez modifier les permissions en exécutant un chmod 766 sur le fichier, ou faire un clic droit sur le nom de fichier pour accéder aux propriétés et décochez l\'option lecture seule.',
     'ERR_CHECKSYS_CUSTOM_NOT_WRITABLE' => 'Le répertoire personnalisé existe mais n\'est pas accessible en écriture.  Vous devrez peut-être modifier les autorisations sur (chmod 766) ou faites un clic droit dessus et décocher l\'option lecture seule, selon votre système d\'exploitation.  Veuillez prendre les mesures nécessaires pour rendre le fichier accessible en écriture.',
     'ERR_CHECKSYS_FILES_NOT_WRITABLE' => "Les fichiers ou les répertoires listés ci-dessous ne sont pas accessible en écriture, sont manquants ou ne peuvent pas être créés.  Selon votre système d'exploitation, corriger ceci peut vous obliger à modifier les autorisations sur les fichiers ou le répertoire parent (chmod 755), ou de faire un clic droit sur le répertoire parent et décochez l'option « lecture seule » et l'appliquer à tous les sous-dossiers.",
+    'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "Les fonctions associées aux bibliothèques JSON Parser nécessaires à l'application SuiteCRM n'ont pas été trouvées. Vous devrez peut-être décommenter l'extension dans le php. , ou recompiler avec le bon fichier binaire, selon votre version de PHP.",
     'LBL_CHECKSYS_OVERRIDE_CONFIG' => 'Remplacer la configuration',
     'ERR_CHECKSYS_SAFE_MODE' => 'Le Safe Mode est activé (vous pouvez le désactiver dans le fichier php.ini)',
     'ERR_CHECKSYS_ZLIB' => 'Le support ZLib introuvable : SuiteCRM tire des avantages de performances énormes avec la compression ZLib.',
@@ -88,6 +91,7 @@ $mod_strings = array(
     'ERR_DB_EXISTS_PROCEED' => 'Le Nom de base de données fourni existe déjà. Vous pouvez <br> 1. cliquez sur le bouton retour et choisir un nouveau nom de base de données <br> 2. Cliquez sur Suivant pour continuer, mais toutes les tables existantes sur cette base de données seront supprimées. <strong> Vos tables et les données seront detruites. </ strong>',
     'ERR_DB_HOSTNAME' => 'Le nom d\'hôte ne peut être vide.',
     'ERR_DB_INVALID' => 'Le type de base de données sélectionné est invalide.',
+    'ERR_DB_LOGIN_FAILURE_SHORT' => 'Erreur de connexion à la base de données: Le nom d\'hôte, nom d\'utilisateur et/ou mot de passe fourni est invalide.',
     'ERR_DB_LOGIN_FAILURE' => 'Les informations de connexion a la base de données utilisateur et/ou mot de passe sont erronées, la connexion n\'a pas pu s\'effectuer. Merci de renseigner un utilisateur et un mot de passe valides.',
     'ERR_DB_LOGIN_FAILURE_MYSQL' => 'Les informations de connexion a la base de données utilisateur et/ou mot de passe sont erronées, la connexion n\'a pas pu s\'effectuer. Merci de renseigner un utilisateur et un mot de passe valides.',
     'ERR_DB_LOGIN_FAILURE_MSSQL' => 'Les informations de connexion a la base de données utilisateur et/ou mot de passe sont erronées, la connexion n\'a pas pu s\'effectuer. Merci de renseigner un utilisateur et un mot de passe valides.',
@@ -120,7 +124,7 @@ $mod_strings = array(
     'ERR_PERFORM_CONFIG_PHP_4' => 'Attention : Impossible d\'écrire dans le fichier config.php. Veuillez vérifier qu\'il existe.',
     'ERR_PERFORM_HTACCESS_1' => 'Impossible d\'écrire dans le',
     'ERR_PERFORM_HTACCESS_2' => 'fichier.',
-    'ERR_PERFORM_HTACCESS_3' => 'Si vous souhaitez que votre fichier journal soit inaccessible par un navigateur, créez un fichier .htaccess dans votre répertoire de journaux avec la ligne suivante :',
+    'ERR_PERFORM_HTACCESS_3' => 'Si vous souhaitez que votre fichier journal ne soit pas accessible par un navigateur, créez un fichier .htaccess dans votre répertoire de journaux avec la ligne suivante :',
     'ERR_PERFORM_NO_TCPIP' => '<b>Nous ne pouvions pas détecter une connexion Internet.</b> Lorsque vous avez une connexion , rendez-vous sur <a href="http://www.suitecrm.com/">http://www.suitecrm.com/</a> pour vous enregistrer auprès SuiteCRM . En nous faisant connaitre un peu plus sur la façon dont votre société prévoit d\'utiliser SuiteCRM , nous pourrons vous assurer que nous fournirons la bonne application pour vos besoins professionnels.',
     'ERR_SESSION_DIRECTORY_NOT_EXISTS' => 'Le répertoire de sessions n\'est pas un dossier valide.',
     'ERR_SESSION_DIRECTORY' => 'Le répertoire de sessions n\'est pas accessible en écriture.',
@@ -159,6 +163,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_PHP_OK' => 'Ok (ver',
     'LBL_CHECKSYS_PHPVER' => 'Version de PHP',
     'LBL_CHECKSYS_IISVER' => 'Version d\'IIS',
+    'LBL_CHECKSYS_JSON' => 'JSON Parsing',
     'LBL_CHECKSYS_RECHECK' => 'Re-vérifier',
     'LBL_CHECKSYS_STATUS' => 'Statut',
     'LBL_CHECKSYS_TITLE' => 'Vérification système acceptation',
@@ -178,15 +183,16 @@ $mod_strings = array(
     'LBL_CONFIRM_WILL' => 'veut',
     'LBL_DBCONF_DB_DROP' => 'Effacer les tables',
     'LBL_DBCONF_DB_NAME' => 'Nom de la base de données',
+    'LBL_DBCONF_DB_PORT' => 'Port de la base de données',
     'LBL_DBCONF_DB_PASSWORD' => 'Mot de passe utilisateur de la base de données SuiteCRM',
     'LBL_DBCONF_DB_PASSWORD2' => 'Re-saisir le mot de passe de l\'utilisateur de la base de données SuiteCRM',
     'LBL_DBCONF_DB_USER' => 'Utilisateur de la base de données SuiteCRM',
-    'LBL_DBCONF_SUGAR_DB_USER' => 'Utilisateur de la base de données SuiteCRM',
+    'LBL_DBCONF_SUITE_DB_USER' => 'Utilisateur de la base de données SuiteCRM',
     'LBL_DBCONF_DB_ADMIN_USER' => 'Nom de l\'administrateur de la base de données SuiteCRM',
     'LBL_DBCONF_DB_ADMIN_PASSWORD' => 'Mot de passe de l\'administrateur de la base de données SuiteCRM',
-    'LBL_DBCONF_COLLATION' => 'Interclassement', // PR 6475
-    'LBL_DBCONF_CHARSET' => 'Encodage', // PR 6475
-    'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Configuration avancée de la base de données', // PR 6475
+    'LBL_DBCONF_COLLATION' => 'Interclassement',
+    'LBL_DBCONF_CHARSET' => 'Encodage',
+    'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Configuration avancée de la base de données',
     'LBL_DBCONF_DEMO_DATA' => 'Intégrer des données de démonstration dans la base de données ?',
     'LBL_DBCONF_DEMO_DATA_TITLE' => 'Choisir les données de démonstration',
     'LBL_DBCONF_HOST_NAME' => 'Nom d\'hôte',
@@ -202,8 +208,9 @@ $mod_strings = array(
     'LBL_DISABLED_DESCRIPTION_2' => 'Après que cette modification ai été appliquée, vous pouvez cliquer sur le bouton "Démarrer" ci-dessous pour commencer votre installation. <i> Une fois l\'installation terminée, vous devrez changer la valeur pour \'installer_locked\' à \'true\'. </ i>',
     'LBL_DISABLED_DESCRIPTION' => 'Le programme d\'installation a déjà été exécuté une fois. Par mesure de sécurité, il a été désactivée pour une nouvelle execution. Si vous êtes absolument sûr que vous voulez l\'exécuter à nouveau, veuillez modifier votre fichier config.php et localiser (ou ajouter) une variable appelée «installer_locked» avec la valeur «false». La ligne devrait ressembler à ceci :',
     'LBL_DISABLED_HELP_1' => 'Pour de l\'assistance à l\'installation, veuillez visiter le site SuiteCRM',
-    'LBL_DISABLED_HELP_LNK' => 'https://suitecrm.com/suitecrm/forum/suite-forum',
+    'LBL_DISABLED_HELP_LNK' => 'https://community.suitecrm.com',
     'LBL_DISABLED_HELP_2' => 'Forums d\'assistance',
+    'LBL_APP_NOT_INSTALLED' => 'SuiteCRM n\'est pas installé. Le point d\'entrée nécessite une installation de SuiteCRM, veuillez d\'abord l\'installer.',
     'LBL_DISABLED_TITLE_2' => 'L\'installation de SuiteCRM a été désactivée',
     'LBL_HELP' => 'Aide',
     'LBL_INSTALL' => 'Installation',
@@ -224,6 +231,8 @@ $mod_strings = array(
     'LBL_LANG_SUCCESS' => 'Le pack de langue a été téléchargé avec succès.',
     'LBL_LANG_TITLE' => 'Pack de langue',
     'LBL_LAUNCHING_SILENT_INSTALL' => 'Installer SuiteCRM maintenant. L\'installation peut prendre quelques minutes.',
+    'LBL_SILENT_INSTALL_SUCCESS' => 'SuiteCRM est installé avec succès.',
+    'LBL_SILENT_INSTALL_FAILED' => 'L\'installation de SuiteCRM a échoué.',
     'LBL_LANG_UPLOAD' => 'Charger un pack de langue',
     'LBL_LICENSE_ACCEPTANCE' => 'Acceptation de licence',
     'LBL_LICENSE_CHECKING' => 'Vérification de compatibilité du système.',
@@ -231,12 +240,12 @@ $mod_strings = array(
     'LBL_LICENSE_CHKDB_HEADER' => 'Vérification des autorisations de la base de données.',
     'LBL_LICENSE_CHECK_PASSED' => 'Tests de compatibilité du systeme',
     'LBL_CREATE_CACHE' => 'Préparation de l\'installation...',
-    'LBL_CREATE_DEFAULT_ENC_KEY' => 'Création de la clé de cryptage par défaut...',
     'LBL_LICENSE_REDIRECT' => 'Redirection vers',
     'LBL_LICENSE_I_ACCEPT' => 'J\'accepte',
     'LBL_LICENSE_PRINTABLE' => 'Version imprimable',
     'LBL_PRINT_SUMM' => 'Sommaire de l\'impression',
     'LBL_LICENSE_TITLE_2' => 'Licence SuiteCRM',
+    'LBL_LICENSE' => 'LICENCE',
 
     'LBL_LOCALE_NAME_FIRST' => 'Antoine',
     'LBL_LOCALE_NAME_LAST' => 'Dupont',
@@ -281,6 +290,7 @@ $mod_strings = array(
     'LBL_REG_CONF_1' => 'Veuillez remplir le formulaire ci-dessous pour recevoir les annonces de produits, de nouvelles formation, offres spéciales et invitations à des événements spéciaux de SuiteCRM. Nous ne vendons pas, ni louons, ou partageons  les informations recueillies ici à des tiers.',
     'LBL_REG_CONF_3' => 'Merci de votre inscription. Cliquez sur le bouton Terminer pour vous connecter à SuiteCRM. Vous devez ouvrir une session pour la première fois en utilisant le nom d\'utilisateur « admin » et le mot de passe saisi à l\'étape 2.',
     'LBL_REG_TITLE' => 'Enregistrement',
+
     'LBL_REQUIRED' => '* champs requis',
 
     'LBL_SITECFG_ADMIN_Name' => 'SuiteCRM  Admin',
@@ -319,6 +329,7 @@ $mod_strings = array(
     'LBL_STEP2' => 'Etape 2 sur 2 - Configuration',
     'LBL_STEP' => 'Etape',
     'LBL_TITLE_WELCOME' => 'Bienvenue dans SuiteCRM',
+    'LBL_WELCOME' => 'Bienvenue dans SuiteCRM',
     //welcome page variables
     'LBL_TITLE_ARE_YOU_READY' => 'Êtes-vous prêt à installer ?',
     'REQUIRED_SYS_COMP' => 'Composants système requis',
@@ -432,7 +443,7 @@ $contact_user_link_guid',
     // SMTP settings
 
     'LBL_FROM_NAME' => 'De la part de :',
-    'LBL_FROM_ADDR' => 'E-mail de l&#39;expéditeur :',
+    'LBL_FROM_ADDR' => 'E-mail de l\'expéditeur :',
 
     'LBL_WIZARD_SMTP_DESC' => 'Fournissez le compte de messagerie qui sera utilisé pour envoyer des E-mails, tels que les notifications d\'assignations et les mots de passe des nouveaux utilisateurs. Les utilisateurs recevront les E-mails de SuiteCRM envoyés à partir du compte E-mail spécifié.',
     'LBL_CHOOSE_EMAIL_PROVIDER' => 'Choisissez votre fournisseur de messagerie :',
@@ -452,7 +463,7 @@ $contact_user_link_guid',
     'LBL_ALLOW_DEFAULT_SELECTION_HELP' => 'Lorsque cette option est sélectionnée, tous les utilisateurs seront en mesure d\'envoyer des E-mails en utilisant le même serveur d\'envoi d\'E-mails, ces paramètres sont aussi utilisés pour envoyer les notifications et les alertes du système. Si cette option n\'est pas sélectionnée, les utilisateurs pourront toujours utiliser le serveur d\'envoi d\'E-mails de leur choix après avoir fourni leurs informations dans leur compte utilisateur.',
 
     'LBL_YAHOOMAIL_SMTPPASS' => 'Yahoo! Mail - Mot de passe :',
-    'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! Mail - E-mail :',
+    'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! Mail - Identifiant :',
 
     'LBL_EXCHANGE_SMTPPASS' => 'Exchange - Mot de passe :',
     'LBL_EXCHANGE_SMTPUSER' => 'Exchange - Nom d\\\'utilisateur:',
@@ -460,7 +471,7 @@ $contact_user_link_guid',
     'LBL_EXCHANGE_SMTPSERVER' => 'Exchange - Serveur :',
 
 
-    'LBL_MAIL_SMTPUSER' => 'Nom d&#39;utilisateur SMTP :',
+    'LBL_MAIL_SMTPUSER' => 'Nom d\'utilisateur SMTP :',
     'LBL_MAIL_SMTPPASS' => 'Mot de passe SMTP :',
 
     // Branding
@@ -469,11 +480,11 @@ $contact_user_link_guid',
     'LBL_WIZARD_SYSTEM_DESC' => 'Fournissez le nom et le logo de votre organisation afin de personnaliser votre SuiteCRM.',
     'SYSTEM_NAME_WIZARD' => 'Nom :',
     'SYSTEM_NAME_HELP' => 'C\'est le nom qui s\'affiche dans la barre de titre de votre navigateur.',
-    'NEW_LOGO' => 'Choisissez logo :',
+    'NEW_LOGO' => 'Sélectionnez le logo :',
     'NEW_LOGO_HELP' => 'L\'image doit être au format .png ou .jpg. La hauteur maximale est de 170px et la largeur maximale est de 450px. Toutes images aux dimensions supérieures à ces valeurs sera redimensionnée aux valeurs maximales indiquées.',
     'COMPANY_LOGO_UPLOAD_BTN' => 'Télécharger',
     'CURRENT_LOGO' => 'Logo actuel :',
-    'CURRENT_LOGO_HELP' => 'Ce logo est affiché dans le coin en haut à gauche de votre application SuiteCRM.',
+    'CURRENT_LOGO_HELP' => 'Ce logo est affiché dans le milieu de l\'écran de connexion de votre application SuiteCRM.',
 
 
     //Scenario selection of modules
@@ -523,10 +534,10 @@ $contact_user_link_guid',
     'LBL_LICENCE_TOOLTIP' => 'Veuillez accepter la licence en premier',
 
     'LBL_MORE_OPTIONS_TITLE' => 'Plus d\'options',
-    'LBL_START' => 'Début',
+    'LBL_START' => '',
     'LBL_DB_CONN_ERR' => 'Erreur de base de données',
     'LBL_OLD_PHP' => 'Ancienne Version PHP détectée !',
-    'LBL_OLD_PHP_MSG' => 'La version PHP recommandée pour installer SuiteCRM est %s < br / > bien que la version PHP minimale requise est %s, n’est pas recommandé en raison du grand nombre de bugs corrigés, y compris les corrections de sécurité, dans les versions plus modernes. < br / &gt; Vous utilisez PHP version %s, qui est EOL : <a href="http://php.net/eol.php"> http://php.net/eol.php</a>. < br / > s’il vous plaît envisager de mettre à jour votre version PHP. Instructions sur <a href="http://php.net/migration70"> http://php.net/migration70</a>. ',
+    'LBL_OLD_PHP_MSG' => 'La version PHP recommandée pour installer SuiteCRM est %s <br />La version minimale de PHP requise est %s<br />Vous utilisez la version PHP %s, qui est EOL : <a href="http://php.net/eol.php">http://php. et/eol.php</a>.<br />Envisagez de mettre à jour votre version de PHP. ',
     'LBL_OLD_PHP_OK' => 'Je suis conscient des risques et souhaite continuer.',
 
     'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Utilisateur',
@@ -535,5 +546,9 @@ $contact_user_link_guid',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Nom d\'hôte',
     'LBL_DBCONFIG_MSG2' => 'Nom du serveur web ou de la machine (hôte) sur lequel la base de donnée est située (par exemple www.mydomain.com). Si l\'installation est locale, il est préférable d\'utiliser \'localhost\' à la place de \'127.0.0.1\' pour des raisons de performance.',
     'LBL_DBCONFIG_B_MSG1_LABEL' => '', // this label dynamically needed in install/installConfig.php:293
-    'LBL_DBCONFIG_B_MSG1' => 'Le nom d\'utilisateur et mot de passe d\'un administrateur de base de données qui peut créer des tables , des bases de données et des utilisateurs et qui écrire dans la base de données est nécessaire pour mettre en place SuiteCRM.'
+    'LBL_DBCONFIG_B_MSG1' => 'Le nom d\'utilisateur et mot de passe d\'un administrateur de base de données qui peut créer des tables , des bases de données et des utilisateurs et qui écrire dans la base de données est nécessaire pour mettre en place SuiteCRM.',
+    'LBL_SYS_CHECK_WARNING' => 'Ignorer les Avertissements Système',
+    'LBL_PROCEED' => 'POURSUIVRE',
+    'LBL_CONFIG' => 'CONFIGURATION',
+    'LBL_VALIDATION_ERRORS' => 'Il y a des erreurs de validation, impossible d\'effectuer l\'action.'
 );

@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
     'LBL_MODIFIED_NAME' => 'Modifié par',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_CREATED' => 'Créé par',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Supprimé',

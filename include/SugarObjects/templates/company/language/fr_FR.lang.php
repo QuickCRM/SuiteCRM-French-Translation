@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_OTHER_EMAIL_ADDRESS' => 'Autre E-mail :',
     'LBL_OTHER_PHONE' => 'Autre téléphone :',
     'LBL_OWNERSHIP' => 'Propriétaire :',
-    'LBL_PARENT_ACCOUNT_ID' => 'Identifiant de la Société parent',
+    'LBL_PARENT_ACCOUNT_ID' => 'Identifiant du compte parent',
     'LBL_PHONE_ALT' => 'Autre téléphone :',
     'LBL_PHONE_FAX' => 'Fax :',
     'LBL_PHONE_OFFICE' => 'Téléphone du bureau :',
@@ -111,7 +111,7 @@ $mod_strings = array(
     'LBL_SHIPPING_ADDRESS_STREET' => 'Livraison - Rue :',
     'LBL_SHIPPING_ADDRESS' => 'Livraison - Adresse :',
 
-    'LBL_STATE' => 'État ou région :', //For address fields
+    'LBL_STATE' => 'État ou région :',
     'LBL_TICKER_SYMBOL' => 'Symbole Tycker :',
     'LBL_TYPE' => 'Type :',
     'LBL_WEBSITE' => 'Site Web :',

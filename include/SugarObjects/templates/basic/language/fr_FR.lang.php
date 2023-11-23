@@ -52,8 +52,8 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
-    'LBL_CREATED_USER' => 'Créé par l&#39;utilisateur',
-    'LBL_MODIFIED_USER' => 'Modifié par l&#39;utilisateur',
+    'LBL_CREATED_USER' => 'Créé par l\'utilisateur',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_DESCENDING' => 'Décroissant',
     // Emails
     'LBL_OPT_IN' => 'Consentement',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Attente de la confirmation de consentement, confirmation de consentement non envoyée',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Attente de la confirmation de consentement, confirmation de consentement envoyée',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Dans l\'attente de la confirmation de consentement, confirmation de consentement non envoyée',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Dans l\'attente de la confirmation de consentement, confirmation de consentement envoyée',
     'LBL_OPT_IN_CONFIRMED' => 'Validé',
 );

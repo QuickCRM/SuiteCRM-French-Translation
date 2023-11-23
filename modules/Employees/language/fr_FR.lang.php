@@ -77,13 +77,13 @@ $mod_strings = array(
     'LBL_OTHER_PHONE' => 'Autre téléphone :',
     'LBL_NOTES' => 'Notes :',
     'LBL_DEPARTMENT' => 'Service :',
-    'LBL_TITLE' => 'Intitulé du poste :',  // issue 7642
+    'LBL_TITLE' => 'Intitulé du poste :',
     'LBL_ANY_ADDRESS' => 'Toutes les adresses :',
     'LBL_ANY_PHONE' => 'Tous les téléphones :',
     'LBL_ANY_EMAIL' => 'Tous les E-mails :',
     'LBL_ADDRESS' => 'Adresse :',
     'LBL_CITY' => 'Ville :',
-    'LBL_STATE' => 'État ou région :', //For address fields
+    'LBL_STATE' => 'État ou région :',
     'LBL_POSTAL_CODE' => 'Code postal :',
     'LBL_COUNTRY' => 'Pays :',
     'LBL_NAME' => 'Nom :',
@@ -151,4 +151,7 @@ $mod_strings = array(
     'LBL_ROLES' => 'Rôles',
     'LBL_SECURITYGROUPS' => 'Groupes de sécurité',
     'LBL_PROSPECT_LIST' => 'Liste des prospects',
+
+    'LBL_FACTOR_AUTH_INTERFACE' => 'Interface de l\'authentification à deux facteurs :',
+    'LBL_EDITOR_TYPE' => 'Éditeur de texte',
 );

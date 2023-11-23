@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Type Mime ',
     'LBL_FILE_URL' => 'URL Fichier',
     'LBL_FILENAME' => 'Pièce jointe :',
-    'LBL_LEAD_ID' => 'Lead (ID) :',
+    'LBL_LEAD_ID' => 'Prospect (ID) :',
     'LBL_LIST_CONTACT_NAME' => 'Contact',
     'LBL_LIST_DATE_MODIFIED' => 'Date de modification',
     'LBL_LIST_FILENAME' => 'Pièce jointe',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Créé par',
     'LBL_MODIFIED_BY' => 'Modifié par',
     'LBL_SEND_ANYWAYS' => 'Le sujet de votre e-mail est vide. Enregistrer/envoyer tout de même ?',
-    'LBL_NOTE_INFORMATION' => 'Aperçu', //Can be translated in all caps. This string will be used by SuiteP template menu actions
+    'LBL_NOTE_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'Mes notes',
     'LBL_EDITLAYOUT' => 'Modifier la mise en page' /*for 508 compliance fix*/,
     //For export labels
@@ -103,4 +103,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_DELETED' => 'Supprimé',
+    'LBL_FILE_CONTENTS' => 'Contenu du fichier',
+
+    'LBL_ASCENDING' => 'Croissant',
+    'LBL_DESCENDING' => 'Décroissant',
 );

@@ -88,7 +88,7 @@ $mod_strings = array(
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Affaires',
     'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Anomalies',
-    'LBL_TASK_ID' => 'Identifiant',
+    'LBL_TASK_ID' => 'ID',
     'LBL_TASK_NAME' => 'Nom de la Tâche',
     'LBL_DURATION' => 'Durée',
     'LBL_ACTUAL_DURATION' => 'Durée en cours',
@@ -148,7 +148,7 @@ $mod_strings = array(
     'LBL_SEARCH_BUTTON' => 'Rechercher',
     'LBL_EMPTY_SEARCH_RESULT' => 'Désolé, aucun résultat trouvé. Veuillez créer un invité ci-dessous.',
     'LBL_CREATE_INVITEE' => 'Créer une ressource',
-    'LBL_CREATE_CONTACT' => 'Contact',
+    'LBL_CREATE_CONTACT' => 'Comme un Contact',
     'LBL_CREATE_AND_ADD' => 'Créer et Ajouter',
     'LBL_CANCEL_CREATE_INVITEE' => 'Annuler',
     'LBL_NO_ACCESS' => 'Vous n&#39;avez aucun accès pour créer $module',
@@ -157,7 +157,8 @@ $mod_strings = array(
     'LBL_VIEW_DETAIL' => 'Retour à la Campagne',
     'LBL_OVERRIDE_BUSINESS_HOURS' => 'Tenir compte des jours ouvrables',
 
-    'LBL_IMPORT_PROJECTS' => 'Importer Projets',
+    'LBL_IMPORT_PROJECTS' => 'Importer des projets',
+    
     'LBL_PROJECTS_SEARCH' => 'Rechercher les projets',
     'LBL_USERS_SEARCH' => 'Rechercher les utilisateurs',
     'LBL_CONTACTS_SEARCH' => 'Sélectionner les contacts',
@@ -175,4 +176,6 @@ $mod_strings = array(
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Modèles de projet : projet du nom de projet',
     'LBL_AOS_QUOTES_PROJECT' => 'Devis : Projet',
 
+    'LBL_ASCENDING' => 'Croissant',
+    'LBL_DESCENDING' => 'Décroissant',
 );

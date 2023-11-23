@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Titre',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
@@ -72,9 +72,9 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nouvelle base de connaissances',
     'LBL_STATUS' => 'Statut',
     'LBL_REVISION' => 'Version',
-    'LBL_AUTHOR_USER_ID' => 'Auteur',
+    'LBL_AUTHOR_USER_ID' => 'Auteur (ID utilisateur associé)',
     'LBL_AUTHOR' => 'Auteur',
-    'LBL_APPROVER_USER_ID' => 'Modérateur',
+    'LBL_APPROVER_USER_ID' => 'Approbateur (ID utilisateur associé)',
     'LBL_APPROVER' => 'Modérateur',
 );
 

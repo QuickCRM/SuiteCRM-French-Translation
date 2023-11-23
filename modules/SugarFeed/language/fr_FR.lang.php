@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de Création',
     'LBL_DATE_MODIFIED' => 'Date de Modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -85,7 +85,6 @@ $mod_strings = array(
     'LBL_CATEGORIES' => 'Modules',
     'LBL_TIME_LAST_WEEK' => 'Dernière Semaine',
     'LBL_TIME_WEEKS' => 'semaines',
-    'LBL_TIME_DAY' => 'jour', // PR 6080
     'LBL_TIME_DAYS' => 'jours',
     'LBL_TIME_YESTERDAY' => 'Hier',
     'LBL_TIME_HOURS' => 'Heures',
@@ -97,15 +96,15 @@ $mod_strings = array(
     'LBL_TIME_AND' => 'et',
     'LBL_TIME_AGO' => 'plus tôt',
 // Activity stream
-    'CREATED_CONTACT' => 'a créé un <b>NOUVEAU</b> {0}',
-    'CREATED_OPPORTUNITY' => 'a créé un <b>NOUVEAU</b> {0}',
-    'CREATED_CASE' => 'a créé un <b>NOUVEAU</b> {0}',
-    'CREATED_LEAD' => 'a créé un <b>NOUVEAU</b> {0}',
+    'CREATED_CONTACT' => 'a créé un <b>NOUVEAU</b> {0}', // For fusional (inflected) languages: used in the sentence "Administrator created a new contact"
+    'CREATED_OPPORTUNITY' => 'a créé un <b>NOUVEAU</b> {0}', // For fusional (inflected) languages: used in the sentence "Administrator created a new opportunity"
+    'CREATED_CASE' => 'a créé un <b>NOUVEAU</b> {0}', // For fusional (inflected) languages: used in the sentence "Administrator created a new case"
+    'CREATED_LEAD' => 'a créé un <b>NOUVEAU</b> {0}', // For fusional (inflected) languages: used in sentence "Administrator created a new lead"
     'FOR' => 'pour', // Activity stream for cases
-    'FOR_AMOUNT' => 'pour le montant de', // Activity stream for opportunity
+    'FOR_AMOUNT' => 'pour le montant de', // Activity stream for cases
     'CLOSED_CASE' => 'a <b>CLÔTURÉ</b> un {0} ',
     'CONVERTED_LEAD' => 'a <b>CONVERTI</b> {0}',
-    'WON_OPPORTUNITY' => 'a <b>gagné</b> une {0}',
+    'WON_OPPORTUNITY' => 'a <b>GAGNÉ</b> un {0}',
     'WITH' => 'lié à',
 
     'LBL_LINK_TYPE_Link' => 'Lien',

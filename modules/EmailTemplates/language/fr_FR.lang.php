@@ -71,6 +71,7 @@ $mod_strings = array(
     'LBL_SHOW_ALT_TEXT' => 'Afficher le texte Alternatif',
     'LBL_SUBJECT' => 'Sujet :',
     'LBL_SUITE_DOCUMENT' => 'Document',
+    'LBL_UPLOAD_FILE' => 'Déposer fichier',
     'LBL_TEXT_BODY' => 'Corps Texte',
     'LBL_USERS' => 'Utilisateurs',
 
@@ -78,7 +79,7 @@ $mod_strings = array(
     'LNK_IMPORT_NOTES' => 'Importation de notes',
     'LNK_NEW_EMAIL_TEMPLATE' => 'Nouveau Modèle d\'E-mail',
     'LNK_NEW_EMAIL' => 'Archiver E-mail',
-    'LNK_NEW_SEND_EMAIL' => 'Envoyer un E-mail',
+    'LNK_NEW_SEND_EMAIL' => 'Rédiger E-mail',
     'LNK_SENT_EMAIL_LIST' => 'Messages envoyés',
     'LNK_VIEW_CALENDAR' => 'Aujourd&#39;hui',
     // for Inbox

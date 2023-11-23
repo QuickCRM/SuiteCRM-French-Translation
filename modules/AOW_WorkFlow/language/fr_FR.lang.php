@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -55,11 +55,11 @@ $mod_strings = array(
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_LIST_FORM_TITLE' => 'Liste des WorkFlow',
-    'LBL_MODULE_NAME' => 'WorkFlows',
-    'LBL_MODULE_TITLE' => 'WorkFlows',
+    'LBL_MODULE_NAME' => 'Flux d\'activité',
+    'LBL_MODULE_TITLE' => 'Flux d\'activité',
     'LBL_HOMEPAGE_TITLE' => 'Mes WorkFlow',
     'LNK_NEW_RECORD' => 'Créer un WorkFlow',
     'LNK_LIST' => 'Voir les WorkFlow',
@@ -76,5 +76,6 @@ $mod_strings = array(
     'LBL_ACTION_LINES' => 'Actions',
     'LBL_ADD_ACTION' => 'Ajouter une action',
     'LBL_MULTIPLE_RUNS' => 'Exécutions consécutives',
-    'LBL_RUN_WHEN' => 'Exécuter'
+    'LBL_RUN_WHEN' => 'Exécuter',
+    'LBL_RUN_ON_IMPORT' => 'Exécuter à l\'importation'
 );

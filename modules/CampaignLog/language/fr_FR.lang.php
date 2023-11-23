@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_LIST_ID' => 'Liste des ID des Prospects',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_TARGET_TRACKER_KEY' => 'Cible du Code Tracker',
     'LBL_TARGET_ID' => 'ID Cible',
     'LBL_TARGET_TYPE' => 'Type de la Cible',
     'LBL_ACTIVITY_TYPE' => 'Type d&#39;Activité',
     'LBL_ACTIVITY_DATE' => 'Date de l&#39;activité',
-    'LBL_RELATED_ID' => 'ID Lié',
+    'LBL_RELATED_ID' => 'ID associé',
     'LBL_RELATED_TYPE' => 'Type Lié',
     'LBL_DELETED' => 'Supprimé',
     'LBL_MODULE_NAME' => 'Logs des Campagnes',
@@ -83,7 +83,7 @@ $mod_strings = array(
     'LBL_CAMPAIGN_TYPE' => 'Type : ',
     'LBL_CAMPAIGN_OBJECTIVE' => 'Objectif : ',
     'LBL_CAMPAIGN_CONTENT' => 'Description : ',
-    'LBL_CREATED_LEAD' => 'Lead créé',
+    'LBL_CREATED_LEAD' => 'Prospect créé',
     'LBL_CREATED_CONTACT' => 'Contact créé',
     'LBL_CREATED_OPPORTUNITY' => 'Nouvelle Affaire créée',
     'LBL_TARGETED_USER' => 'Utilisateur ciblé',
@@ -94,8 +94,8 @@ $mod_strings = array(
     'LBL_MORE_INFO' => 'Plus d&#39;informations',
 
     'LBL_CAMPAIGNS' => 'Campagnes',
-    'LBL_LIST_MARKETING_NAME' => 'Message',
+    'LBL_LIST_MARKETING_NAME' => 'ID Marketing',
 
-    'LBL_MARKETING_ID' => 'Message',
+    'LBL_MARKETING_ID' => 'ID Marketing',
     'LBL_RELATED_NAME' => 'Nom connexe',
 );

@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_MODULE_NAME' => 'Groupes',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -52,9 +52,9 @@ $mod_strings = array(
     'LBL_NAME' => 'Nom du groupe',
     'LBL_TOTAL_AMT' => 'Total',
     'LBL_DISCOUNT_AMOUNT' => 'Remise',
-    'LBL_SUBTOTAL_AMOUNT' => 'Sous-total HT',
+    'LBL_SUBTOTAL_AMOUNT' => 'Sous-total',
     'LBL_TAX_AMOUNT' => 'Taxes',
-    'LBL_SUBTOTAL_TAX_AMOUNT' => 'Sous-total TTC',
+    'LBL_SUBTOTAL_TAX_AMOUNT' => 'Sous-total + taxes',
     'LBL_GROUP_TOTAL' => 'Total du groupe',
     'LBL_LIST_NUM' => 'Numéro',
     'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Sous-total (devise par défaut)',
@@ -65,5 +65,5 @@ $mod_strings = array(
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Sous-total + taxes (devise par défaut)',
     'LBL_PARENT_ID' => 'Parent ID',
 
-    'AOS_PRODUCT_QUOTES' => 'Lignes de produit',
+    'AOS_PRODUCT_QUOTES' => 'Devis des produits',
 );

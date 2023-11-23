@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Identifiant',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'Adresse électronique',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Adresse de courrier électronique Caps',
     'LBL_INVALID_EMAIL' => 'E-mails invalides',

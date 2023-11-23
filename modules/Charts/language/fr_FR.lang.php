@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'ERR_NO_OPPS' => 'Veuillez créer des Affaires avant de visualiser le graphique des Affaires.',
-    'LBL_ALL_OPPORTUNITIES' => 'Total du portefeuille ',
+    'LBL_ALL_OPPORTUNITIES' => 'Total du portefeuille',
     'LBL_CHART_TYPE' => 'Type de Graphique :',
-    'LBL_CREATED_ON' => 'Dernière excécution ',
+    'LBL_CREATED_ON' => 'Dernière excécution',
     'LBL_CLOSE_DATE_START' => 'Date de clôture attendue - Du :',
     'LBL_CLOSE_DATE_END' => 'Date de clôture attendue - Au :',
     'LBL_DATE_END' => 'Date de fin :',
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_SALES_STAGE_FORM_DESC' => 'Affiche le montant cumulé des Affaires par Phase de Vente filtré par utilisateur et dont la date de clôture prévue est comprise dans la plage de dates spécifiées.',
     'LBL_SALES_STAGE_FORM_TITLE' => 'Portefeuille par Phase de Vente',
     'LBL_SALES_STAGES' => 'Phases de Vente:',
-    'LBL_TOTAL_PIPELINE' => 'Total du portefeuille ',
+    'LBL_TOTAL_PIPELINE' => 'Total du portefeuille',
     'LBL_USERS' => 'Utilisateurs :',
     'LBL_YEAR_BY_OUTCOME' => 'Portefeuille par Mois par Résultat',
     'LBL_YEAR' => 'Année :',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Créer Tâche',
     'NTC_NO_LEGENDS' => 'Indéfini',
 
-    'LBL_TITLE' => 'Titre : ',
+    'LBL_TITLE' => 'Titre :',
     'LBL_MY_MODULES_USED_SIZE' => 'Nombre d&#39;accés',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Portefeuille par phase de vente',

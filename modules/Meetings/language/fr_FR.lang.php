@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_INVITEE' => 'Participants',
     'LBL_LAST_NAME' => 'Nom',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à :',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Utilisateur attribué',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_LIST_CLOSE' => 'Clôturer',
     'LBL_LIST_CONTACT' => 'Contact',
     'LBL_LIST_DATE_MODIFIED' => 'Date de modification',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Créé par',
     'LBL_MODIFIED_USER' => 'Modifié par',
     'NOTICE_DURATION_TIME' => 'La durée doit être supérieur à 0',
-    'LBL_MEETING_INFORMATION' => 'Aperçu', //Can be translated in all caps. This string will be used by SuiteP template menu actions
+    'LBL_MEETING_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_LIST_JOIN_MEETING' => 'Joindre la réunion',
     'LBL_ACCEPT_STATUS' => 'Statut acceptation',
     'LBL_ACCEPT_LINK' => 'Lien acceptation',
@@ -137,8 +137,8 @@ $mod_strings = array(
     // create invitee functionallity
     'LBL_CREATE_INVITEE' => 'Créer un invité',
     'LBL_CREATE_CONTACT' => 'Contact',  // Create invitee functionallity
-    'LBL_CREATE_LEAD' => 'Lead', // Create invitee functionallity
-    'LBL_CREATE_AND_ADD' => 'Créer et Ajouter', // Create invitee functionallity
+    'LBL_CREATE_LEAD' => 'Lead',  // Create invitee functionallity
+    'LBL_CREATE_AND_ADD' => 'Créer et Ajouter',  // Create invitee functionallity
     'LBL_CANCEL_CREATE_INVITEE' => 'Annuler',
     'LBL_EMPTY_SEARCH_RESULT' => 'Désolé, aucun résultat trouvé. Veuillez créer un invité ci-dessous.',
     'LBL_NO_ACCESS' => 'Vous n&#39;avez aucun accès pour créer $module',  // Create invitee functionallity
@@ -155,7 +155,7 @@ $mod_strings = array(
     'LBL_RELATED_TO' => 'Relatif à :',
 
     // for reminders
-    'LBL_REMINDERS' => 'Rappels',
+    'LBL_REMINDERS' => 'Rappel par défaut',
     'LBL_REMINDERS_ACTIONS' => 'Actions',
     'LBL_REMINDERS_POPUP' => 'Rappel utilisateurs',
     'LBL_REMINDERS_EMAIL' => 'E-mail invités',

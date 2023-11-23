@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
@@ -84,8 +84,7 @@ $mod_strings = array(
     'LBL_TOTAL' => 'Total',
     'LBL_AOR_CHARTS_SUBPANEL_TITLE' => 'Graphiques',
     'LBL_ADD_CHART' => 'Ajouter un graphique',
-    'LBL_ADD_PARENTHESIS' => 'Ajouter des parenthèses',// PR 5471 and 6252 to be removed after merged
-    'LBL_INSERT_PARENTHESIS' => 'Insérez des parenthèses', // PR 5471
+    'LBL_ADD_PARENTHESIS' => 'Insérez des parenthèses',
     'LBL_CHART_TITLE' => 'Titre',
     'LBL_CHART_TYPE' => 'Type',
     'LBL_CHART_X_FIELD' => 'Axe X',

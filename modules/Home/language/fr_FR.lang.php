@@ -56,7 +56,7 @@ $mod_strings = array(
     'LNK_NEW_CONTACT' => 'Créer Contact',
     'LNK_NEW_ACCOUNT' => 'Créer un compte',
     'LNK_NEW_OPPORTUNITY' => 'Créer Affaire',
-    'LNK_NEW_LEAD' => 'Créer un Lead',
+    'LNK_NEW_LEAD' => 'Créer un prospect',
     'LNK_NEW_CASE' => 'Créer Ticket',
     'LNK_NEW_NOTE' => 'Créer une note ou une pièce jointe',
     'LNK_NEW_CALL' => 'Créer un appel',
@@ -64,8 +64,7 @@ $mod_strings = array(
     'LNK_NEW_MEETING' => 'Organiser une réunion',
     'LNK_NEW_TASK' => 'Créer Tâche',
     'LNK_NEW_BUG' => 'Signaler Bug',
-    'LBL_ADD_BUSINESSCARD' => 'Créer Carte de Visite',
-    'LNK_NEW_SEND_EMAIL' => 'Envoyer un E-mail',
+    'LNK_NEW_SEND_EMAIL' => 'Rédiger E-mail',
     'LBL_NO_ACCESS' => 'Vous n&#39;avez pas accès à cet espace. Veuillez contacter votre administrateur pour en connaître la raison.',
     'LBL_NO_RESULTS_IN_MODULE' => '-- Pas de résultats --',
     'LBL_NO_RESULTS' => '<h2>Aucun résultat trouvé. Veuillez effectuer une nouvelle recherche.</h2><br>',
@@ -181,6 +180,9 @@ $mod_strings = array(
     'LBL_ABOUT_SUITE' => 'A propos de SuiteCRM',
     'LBL_PARTNERS' => 'Partenaires',
     'LBL_FEATURING' => 'Modules AOS, AOW, AOR, AOP, AOE et replanification par SalesAgility.',
+    'LBL_EDIT_ALL_RECURRENCES' => 'Editer toutes les récurrences',
+    'LBL_REMOVE_ALL_RECURRENCES' => 'Supprimer toutes les récurrences',
+    'LBL_CONFIRM_REMOVE' => 'Etes vous sûr de vouloir supprimer cet enregistrement ?',
 
     'LBL_CONTRIBUTOR_SUITECRM' => 'SuiteCRM - CRM Open Source pour le monde',
     'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite par Jason Eggers',
@@ -218,11 +220,11 @@ $mod_strings = array(
     'LBL_REPEAT_INTERVAL' => 'Intervalle',
     'LBL_REPEAT_END' => 'Fin',
     'LBL_REPEAT_END_AFTER' => 'Après le',
-    'LBL_REPEAT_OCCURRENCES' => 'occurrences',
+    'LBL_REPEAT_OCCURRENCES' => 'récurrences',
     'LBL_REPEAT_END_BY' => 'Le',
     'LBL_REPEAT_DOW' => 'Le',
     'LBL_REPEAT_UNTIL' => 'Répéter jusqu&#39;à',
-    'LBL_REPEAT_COUNT' => 'Nombre d’occurrences',
+    'LBL_REPEAT_COUNT' => 'Nombre de récurrences',
     'LBL_REPEAT_LIMIT_ERROR' => 'Votre requête allait créer plus de $limit meetings.',
 
     //Events
@@ -244,5 +246,9 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_EXCEPTION_NO_NODES_AVAILABLE' => 'Impossible de se connecter au serveur Elasticsearch.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'Erreur interne dans la recherche.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'Une erreur inconnue s’est produite lors de l’exécution de la recherche.',
-    'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Si le problème persiste, veuillez contacter un administrateur. De plus amples informations sont disponibles dans les logs.'
+    'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Si le problème persiste, veuillez contacter un administrateur. De plus amples informations sont disponibles dans les logs.',
+
+    'LBL_ELASTIC_SEARCH_DEFAULT' => 'Aucun résultat correspondant à vos critères. Essayez d\'élargir votre recherche.',
+
+    'LNK_TASK_VIEW' => 'Voir la tâche',
 );

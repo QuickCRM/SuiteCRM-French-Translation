@@ -111,9 +111,9 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_LIST_MY_CALLS' => 'Mes Appels',
     'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
-    'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à',
     'NOTICE_DURATION_TIME' => 'La durée doit être supérieure à 0',
-    'LBL_CALL_INFORMATION' => 'Aperçu', //Can be translated in all caps. This string will be used by SuiteP template menu actions
+    'LBL_CALL_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_REMOVE' => 'Supprimer',
     'LBL_ACCEPT_STATUS' => 'Statut acceptation',
     'LBL_ACCEPT_LINK' => 'Lien acceptation',
@@ -138,7 +138,7 @@ $mod_strings = array(
     'LBL_SYNCED_RECURRING_MSG' => 'Cet appel provient d\'un autre système et a été synchronisé à SuiteCRM . Pour apporter des modifications, allez à l\'appel d\'origine dans l\'autre système. Les modifications apportées dans l\'autre système peuvent être synchronisés à cet enregistrement.',
 
     // for reminders
-    'LBL_REMINDERS' => 'Rappels',
+    'LBL_REMINDERS' => 'Rappel par défaut',
     'LBL_REMINDERS_ACTIONS' => 'Actions',
     'LBL_REMINDERS_POPUP' => 'Rappel utilisateurs',
     'LBL_REMINDERS_EMAIL' => 'E-mail invités',

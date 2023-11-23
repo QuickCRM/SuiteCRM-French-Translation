@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
     'LBL_ASSIGNED_TO_NAME' => 'Utilisateur SuiteCRM',
-    'LBL_ID' => 'Identifiant',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -53,9 +53,9 @@ $mod_strings = array(
     'LBL_CREATED' => 'Créé par',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Supprimé',
-    'LBL_NAME' => 'Identifiant',
+    'LBL_NAME' => 'Nom d\'utilisateur de l\'application',
     'LBL_CREATED_USER' => 'Créé par',
-    'LBL_MODIFIED_USER' => 'Modifié par',
+    'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_LIST_FORM_TITLE' => 'Liste des liens externes',
     'LBL_MODULE_NAME' => 'Lien externe',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités à réaliser',
     'LBL_NEW_FORM_TITLE' => 'Nouveau lien externe',
     'LBL_PASSWORD' => 'Mot de passe',
-    'LBL_USER_NAME' => 'Mot de passe',
+    'LBL_USER_NAME' => 'Nom d\'utilisateur de l\'application',
     'LBL_URL' => 'URL',
     'LBL_APPLICATION' => 'Application',
     'LBL_API_DATA' => 'Donnée API',
