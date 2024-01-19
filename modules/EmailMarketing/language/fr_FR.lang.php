@@ -76,7 +76,7 @@ $mod_strings = array(
 
     'LNK_NEW_CAMPAIGN' => 'Nouvelle Campagne',
     'LNK_CAMPAIGN_LIST' => 'Campagnes',
-    'LNK_NEW_PROSPECT_LIST' => 'Créer Liste de cibles',
+    'LNK_NEW_PROSPECT_LIST' => 'Créer une Liste de cibles',
     'LNK_PROSPECT_LIST_LIST' => 'Listes de Cibles',
     'LNK_NEW_PROSPECT' => 'Créer la cible',
     'LNK_PROSPECT_LIST' => 'Cibles',

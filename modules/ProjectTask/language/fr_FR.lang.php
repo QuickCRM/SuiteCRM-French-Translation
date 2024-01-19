@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_LIST_CLOSE' => 'Fermer',
     'LBL_PROJECT_NAME' => 'Projet',
 
-    'LNK_NEW_PROJECT' => 'Créer Projet',
+    'LNK_NEW_PROJECT' => 'Créer un projet',
     'LNK_PROJECT_LIST' => 'Liste des Projets',
     'LNK_NEW_PROJECT_TASK' => 'Créer Tâche Projet',
     'LNK_PROJECT_TASK_LIST' => 'Tâches du Projet',

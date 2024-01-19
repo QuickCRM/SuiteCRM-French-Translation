@@ -49,9 +49,9 @@ $mod_strings = array(
 
     'LBL_MODULE_NAME' => 'Calendrier',
     'LBL_MODULE_TITLE' => 'Calendrier',
-    'LNK_NEW_CALL' => 'Planifier Appel',
+    'LNK_NEW_CALL' => 'Planifier un appel',
     'LNK_NEW_MEETING' => 'Organiser une réunion',
-    'LNK_NEW_TASK' => 'Créer Tâche',
+    'LNK_NEW_TASK' => 'Créer une tâche',
     'LNK_CALL_LIST' => 'Appels',
     'LNK_MEETING_LIST' => 'Réunions',
     'LNK_TASK_LIST' => 'Tâches',
