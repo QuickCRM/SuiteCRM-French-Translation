@@ -355,8 +355,8 @@ Dernière tentative de connexion: ',
 
     //ModuleInstaller
     'LBL_MI_REBUILDING' => 'Reconstruction',
-    'LBL_MI_IN_EXT' => 'Installation de l&#39;extension %S',
-    'LBL_MI_UN_EXT' => 'Désinstallation de l&#39;extension %S',
+    'LBL_MI_IN_EXT' => 'Installation de l&#39;extension %s',
+    'LBL_MI_UN_EXT' => 'Désinstallation de l&#39;extension %s',
     'LBL_MI_UN_CUSTOMFIELD' => 'Désintallation des champs personnalisés...',
     'LBL_MI_IN_CUSTOMFIELD' => 'Installation des champs personnalisés...',
     'LBL_MI_COMPLETE' => 'Terminé',
