@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_DEFAULT_LOCATION' => 'Défaut',
 
     'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Lors de la suppression d\'un E-mail, supprimer les pièces jointes et Notes qui lui sont rattachées.',
-    'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Notifications par courrier électronique',
+    'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Notifications si parametrage non défini',
     'LBL_EMAIL_ENABLE_CONFIRM_OPT_IN' => 'Réglages Opt-In',
     'LBL_EMAIL_ENABLE_SEND_OPT_IN' => 'Envoyer automatiquement l\'E-mail de consentement',
     'LBL_EMAIL_CONFIRM_OPT_IN_TEMPLATE_ID' => 'Modèle du message de confirmation d\'accord',
