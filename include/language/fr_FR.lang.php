@@ -3686,7 +3686,7 @@ $app_list_strings['day_list']['Sunday'] = 'Le dimanche';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = 'Lettres';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Légal';
-$app_list_strings['pdf_orientation_dom']['Portrait'] = 'Photo';
+$app_list_strings['pdf_orientation_dom']['Portrait'] = 'Portrait';
 $app_list_strings['pdf_orientation_dom']['Landscape'] = 'Paysage';
 
 
