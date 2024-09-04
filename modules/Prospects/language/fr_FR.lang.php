@@ -45,6 +45,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Cibles',
     'LBL_MODULE_ID' => 'Cibles',
+    'LBL_DATE_ENTERED' => 'Date de création :',
+    'LBL_DATE_MODIFIED' => 'Date de modification :',
     'LBL_INVITEE' => 'Rapports directs',
     'LBL_MODULE_TITLE' => 'Cibles : Accueil',
     'LBL_SEARCH_FORM_TITLE' => 'Recherche cible',
