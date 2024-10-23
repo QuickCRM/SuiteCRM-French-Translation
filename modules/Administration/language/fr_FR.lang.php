@@ -894,9 +894,9 @@ Dernière tentative de connexion: ',
     'LBL_CHANGE_SETTINGS' => 'Modifier les paramètres des devis, contrats et factures',
     'LBL_CHANGE_SETTINGS_AOP' => 'Modifier le paramétrage pour les affaires et le portail des affaires',
 
-    'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Gestion des groupes de Security Suite',
-    'LBL_MANAGE_SECURITYGROUPS' => 'Editeur de groupes Security Suite',
-    'LBL_CONFIG_SECURITYGROUPS_TITLE' => 'Configuration Security Suite',
+    'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Gestion des groupes de sécurité',
+    'LBL_MANAGE_SECURITYGROUPS' => 'Editeur de groupes de sécurité',
+    'LBL_CONFIG_SECURITYGROUPS_TITLE' => 'Configuration de Security Suite',
     'LBL_CONFIG_SECURITYGROUPS' => 'Configure les paramètres de Security Suite tels les héritages de groupes, la sécurité additionnelle, ...',
 
     'LBL_BUSINESS_HOURS' => 'Heures ouvrées',

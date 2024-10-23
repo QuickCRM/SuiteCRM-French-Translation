@@ -13,7 +13,7 @@
     "oPaginate": {
         "sFirst":    "Premier",
         "sLast":     "Dernier",
-        "sNext":     "Prochain",
+        "sNext":     "Suivant",
         "sPrevious": "Précédent"
     },
     "oAria": {

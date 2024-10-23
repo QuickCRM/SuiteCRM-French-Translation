@@ -76,8 +76,8 @@ $mod_strings = array(
 
     'LBL_SAMPLE' => 'Charger un exemple',
     'LBL_PAGE' => 'Page',
-    'LBL_PREPARED_FOR' => 'Préparé pour',
-    'LBL_PREPARED_BY' => 'aré par',
+    'LBL_PREPARED_FOR' => 'Société',
+    'LBL_PREPARED_BY' => 'Etabli par',
     'LBL_QUOTE_SAMPLE' => 'Exemple de Devis',
     'LBL_INVOICE_SAMPLE' => 'Exemple de Facture',
     'LBL_ACCOUNT_SAMPLE' => 'Exemple de Compte',
