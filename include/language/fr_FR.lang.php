@@ -1096,9 +1096,9 @@ $app_list_strings = array(
         'last_month' => 'Le mois dernier',
         'this_month' => 'Ce mois-ci',
         'next_month' => 'Le mois prochain',
-        'last_year' => 'L&#39;année dernière',
+        'last_year' => 'L\'année dernière',
         'this_year' => 'Cette année',
-        'next_year' => 'L&#39;année prochaine',
+        'next_year' => 'L\'année prochaine',
         'between' => 'Entre',
     ),
     'numeric_range_search_dom' => array(
