@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
     'LBL_ASSIGNED_TO_NAME' => 'Manager du projet',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',

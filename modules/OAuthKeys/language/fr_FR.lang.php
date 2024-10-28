@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_CONSKEY' => 'OAuth Consumer Key',
     'LBL_CONSSECRET' => 'OAuth Consumer Secret',
-    'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à (ID)',
     'LBL_ASSIGNED_TO_NAME' => 'Utilisateur',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',

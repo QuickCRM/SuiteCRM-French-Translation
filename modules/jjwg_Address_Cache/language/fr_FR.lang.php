@@ -42,7 +42,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Identifiant de l\'utilisateur assigné';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigné à (ID)';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigné à';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Date de création';
