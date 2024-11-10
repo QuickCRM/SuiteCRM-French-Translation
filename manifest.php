@@ -15,7 +15,7 @@ $manifest = array(
 		  array('CE'),
 	'author' => 'Communauté SuiteCRM + NS-Team',
 	'version' => '8.4.2.09 NS',
-	'published_date' => '2024-10-25',
+	'published_date' => '2024-11-10',
       );
 $installdefs = array(
 	'id'=> 'fr_FR',
